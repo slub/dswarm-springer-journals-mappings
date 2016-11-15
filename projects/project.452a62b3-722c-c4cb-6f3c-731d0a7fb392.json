@@ -212,9 +212,9 @@
             "parameters" : null
           },
           "input_components" : [ {
-            "uuid" : "2e6ac4c5-ade7-c362-b32a-105d1ec030d6"
-          }, {
             "uuid" : "b5453dec-2d72-66c4-defe-7ec953c2463f"
+          }, {
+            "uuid" : "2e6ac4c5-ade7-c362-b32a-105d1ec030d6"
           } ],
           "output_components" : null,
           "parameter_mappings" : {

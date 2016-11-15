@@ -41574,6 +41574,19 @@
           } ]
         },
         "sub_schema" : null
+      }, {
+        "type" : "SchemaAttributePathInstance",
+        "uuid" : "SchemaAttributePathInstance-1c8ef44f-9f91-40ba-b7d9-c574cc68898e",
+        "name" : null,
+        "attribute_path" : {
+          "uuid" : "AttributePath-3fb8258c-5c83-49f6-b84e-5440aacfd9eb",
+          "attributes" : [ {
+            "uuid" : "Attribute-560e17cd-92b5-4102-ace1-29e824366577",
+            "name" : "format_de15",
+            "uri" : "http://data.slub-dresden.de/schemas/Schema-5664ba0e-ccb3-4b71-8823-13281490de30/format_de15"
+          } ]
+        },
+        "sub_schema" : null
       } ],
       "record_class" : {
         "uuid" : "Clasz-2b3ddd78-3876-44eb-bdd9-ae817ca563c8",

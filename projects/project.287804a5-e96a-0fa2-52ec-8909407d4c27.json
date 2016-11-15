@@ -369,7 +369,204 @@
   }, {
     "uuid" : "b4160ca9-dedc-939f-e83c-deef07f03767",
     "name" : "container_reference_JournalDOI",
+    "transformation" : {
+      "uuid" : "df252539-4d55-bc7f-ac54-376c9c121376",
+      "name" : "transformation",
+      "description" : "transformation",
+      "function" : {
+        "type" : "Transformation",
+        "uuid" : "3f2f620c-d7eb-f5ae-cad7-16512ab25deb",
+        "name" : "transformation",
+        "description" : "transformation",
+        "components" : [ {
+          "uuid" : "323aceb4-f009-5b25-77ee-46d29fbfed6a",
+          "name" : "component2453fba6-ddda-dd7c-37be-1fc5ba840f9a",
+          "description" : "{\"x\":\"Journal_JournalInfo_JournalDOI_value__01ccfc00-2d31-4de7-b39d-8c11f86413ec\",\"y\":0}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-b6fa89ea-27b7-4d00-aef6-caf9ddd4e1ad",
+            "name" : "choose",
+            "description" : "Collects all received values and emits the most preferred one on record end.",
+            "function_description" : {
+              "name" : "choose",
+              "dsl" : "metafacture",
+              "reference" : "choose",
+              "description" : "Collects all received values and emits the most preferred one on record end."
+            },
+            "parameters" : null
+          },
+          "input_components" : [ {
+            "uuid" : "1aa9ba41-4b43-d9b5-9781-3a8eef4d3c68"
+          } ],
+          "output_components" : [ {
+            "uuid" : "f96469d4-64e0-f799-8b4d-e1ff631e2d10"
+          } ],
+          "parameter_mappings" : {
+            "inputString" : "Journal_JournalInfo_JournalDOI_value__01ccfc00-2d31-4de7-b39d-8c11f86413ec,component4061ab8f-ac47-6590-5d2a-e9e715eb2099"
+          }
+        }, {
+          "uuid" : "1aa9ba41-4b43-d9b5-9781-3a8eef4d3c68",
+          "name" : "component4061ab8f-ac47-6590-5d2a-e9e715eb2099",
+          "description" : "{\"x\":\"Journal_JournalInfo_JournalID_value__c2e44803-ccaa-6a08-81b5-518bcf7edd1f\",\"y\":0}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-45511b07-9126-4796-8a0d-86394711004f",
+            "name" : "concat",
+            "description" : "Collects all received values and concatenates them on record end. Useful for values of different fields in a record. This function does only emit values, when all sources emit something.",
+            "function_description" : {
+              "name" : "concat",
+              "dsl" : "metafacture",
+              "reference" : "concat",
+              "description" : "Collects all received values and concatenates them on record end. Useful for values of different fields in a record. This function does only emit values, when all sources emit something.",
+              "parameters" : {
+                "delimiter" : {
+                  "type" : "text",
+                  "optional" : true
+                },
+                "prefix" : {
+                  "type" : "text",
+                  "optional" : true
+                },
+                "postfix" : {
+                  "type" : "text",
+                  "optional" : true
+                }
+              }
+            },
+            "parameters" : [ "delimiter", "prefix", "postfix" ]
+          },
+          "input_components" : null,
+          "output_components" : [ {
+            "uuid" : "323aceb4-f009-5b25-77ee-46d29fbfed6a"
+          } ],
+          "parameter_mappings" : {
+            "delimiter" : ".",
+            "prefix" : "10.1007/",
+            "inputString" : "Journal_JournalInfo_JournalID_value__c2e44803-ccaa-6a08-81b5-518bcf7edd1f,Journal_JournalInfo_JournalElectronicISSN_value__83d3e29e-0b3e-b9af-0c53-419d01cb80c3"
+          }
+        }, {
+          "uuid" : "f96469d4-64e0-f799-8b4d-e1ff631e2d10",
+          "name" : "componentd9de5444-08e8-6dea-0cac-d1621aa7784b",
+          "description" : "{\"x\":\"Journal_JournalInfo_JournalDOI_value__01ccfc00-2d31-4de7-b39d-8c11f86413ec\",\"y\":1}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-385aa100-6641-4a1e-9ab5-498187e461c3",
+            "name" : "base64",
+            "description" : "Base64 hashing.",
+            "function_description" : {
+              "name" : "base64",
+              "dsl" : "metafacture",
+              "reference" : "base64",
+              "description" : "Base64 hashing."
+            },
+            "parameters" : null
+          },
+          "input_components" : [ {
+            "uuid" : "323aceb4-f009-5b25-77ee-46d29fbfed6a"
+          } ],
+          "output_components" : [ {
+            "uuid" : "effb5461-0e16-297a-2f36-5d04a768cee2"
+          } ],
+          "parameter_mappings" : {
+            "inputString" : "component2453fba6-ddda-dd7c-37be-1fc5ba840f9a"
+          }
+        }, {
+          "uuid" : "effb5461-0e16-297a-2f36-5d04a768cee2",
+          "name" : "componenta8d27c06-1772-dad1-448d-f0c8512b3df7",
+          "description" : "{\"x\":\"Journal_JournalInfo_JournalDOI_value__01ccfc00-2d31-4de7-b39d-8c11f86413ec\",\"y\":2}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-81d714c9-2dc2-41a5-af19-d3b81ccb8a03",
+            "name" : "compose",
+            "description" : "Add pre- or postfix to a string.",
+            "function_description" : {
+              "name" : "compose",
+              "dsl" : "metafacture",
+              "reference" : "compose",
+              "description" : "Add pre- or postfix to a string.",
+              "parameters" : {
+                "prefix" : {
+                  "type" : "text",
+                  "optional" : true
+                },
+                "postfix" : {
+                  "type" : "text",
+                  "optional" : true
+                }
+              }
+            },
+            "parameters" : [ "prefix", "postfix" ]
+          },
+          "input_components" : [ {
+            "uuid" : "f96469d4-64e0-f799-8b4d-e1ff631e2d10"
+          } ],
+          "output_components" : null,
+          "parameter_mappings" : {
+            "prefix" : "dswarm-105-",
+            "inputString" : "componentd9de5444-08e8-6dea-0cac-d1621aa7784b"
+          }
+        } ],
+        "function_description" : null,
+        "parameters" : null
+      },
+      "input_components" : null,
+      "output_components" : null,
+      "parameter_mappings" : {
+        "Journal_JournalInfo_JournalDOI_value__01ccfc00-2d31-4de7-b39d-8c11f86413ec" : "Journal_JournalInfo_JournalDOI_value__01ccfc00-2d31-4de7-b39d-8c11f86413ec",
+        "Journal_JournalInfo_JournalID_value__c2e44803-ccaa-6a08-81b5-518bcf7edd1f" : "Journal_JournalInfo_JournalID_value__c2e44803-ccaa-6a08-81b5-518bcf7edd1f",
+        "Journal_JournalInfo_JournalElectronicISSN_value__83d3e29e-0b3e-b9af-0c53-419d01cb80c3" : "Journal_JournalInfo_JournalElectronicISSN_value__83d3e29e-0b3e-b9af-0c53-419d01cb80c3",
+        "__TRANSFORMATION_OUTPUT_VARIABLE__76c80207-0473-f1cc-fcee-aab8e4032ae3" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__76c80207-0473-f1cc-fcee-aab8e4032ae3"
+      }
+    },
     "input_attribute_paths" : [ {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "83d3e29e-0b3e-b9af-0c53-419d01cb80c3",
+      "name" : "Journal_JournalInfo_JournalElectronicISSN_value__83d3e29e-0b3e-b9af-0c53-419d01cb80c3",
+      "attribute_path" : {
+        "uuid" : "AttributePath-139c2194-da4a-45de-bccd-b53e443e437c",
+        "attributes" : [ {
+          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
+          "name" : "Journal",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
+        }, {
+          "uuid" : "Attribute-c75f74ef-ac62-45e8-8949-95ab19d0ea71",
+          "name" : "JournalInfo",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/JournalInfo"
+        }, {
+          "uuid" : "Attribute-7a35717d-7fbd-4d6d-94dc-00fea2172f9b",
+          "name" : "JournalElectronicISSN",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/JournalElectronicISSN"
+        }, {
+          "uuid" : "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+          "name" : "value",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        } ]
+      }
+    }, {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "c2e44803-ccaa-6a08-81b5-518bcf7edd1f",
+      "name" : "Journal_JournalInfo_JournalID_value__c2e44803-ccaa-6a08-81b5-518bcf7edd1f",
+      "attribute_path" : {
+        "uuid" : "AttributePath-f9659a10-1d0c-4b62-b27b-ec985fca1ee5",
+        "attributes" : [ {
+          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
+          "name" : "Journal",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
+        }, {
+          "uuid" : "Attribute-c75f74ef-ac62-45e8-8949-95ab19d0ea71",
+          "name" : "JournalInfo",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/JournalInfo"
+        }, {
+          "uuid" : "Attribute-5542651e-6777-49a2-bcad-9b634e7f5e4a",
+          "name" : "JournalID",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/JournalID"
+        }, {
+          "uuid" : "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+          "name" : "value",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        } ]
+      }
+    }, {
       "type" : "MappingAttributePathInstance",
       "uuid" : "01ccfc00-2d31-4de7-b39d-8c11f86413ec",
       "name" : "Journal_JournalInfo_JournalDOI_value__01ccfc00-2d31-4de7-b39d-8c11f86413ec",
@@ -643,6 +840,78 @@
       "description" : "Trims the value"
     },
     "parameters" : null
+  }, {
+    "type" : "Function",
+    "uuid" : "Function-385aa100-6641-4a1e-9ab5-498187e461c3",
+    "name" : "base64",
+    "description" : "Base64 hashing.",
+    "function_description" : {
+      "name" : "base64",
+      "dsl" : "metafacture",
+      "reference" : "base64",
+      "description" : "Base64 hashing."
+    },
+    "parameters" : null
+  }, {
+    "type" : "Function",
+    "uuid" : "Function-b6fa89ea-27b7-4d00-aef6-caf9ddd4e1ad",
+    "name" : "choose",
+    "description" : "Collects all received values and emits the most preferred one on record end.",
+    "function_description" : {
+      "name" : "choose",
+      "dsl" : "metafacture",
+      "reference" : "choose",
+      "description" : "Collects all received values and emits the most preferred one on record end."
+    },
+    "parameters" : null
+  }, {
+    "type" : "Function",
+    "uuid" : "Function-45511b07-9126-4796-8a0d-86394711004f",
+    "name" : "concat",
+    "description" : "Collects all received values and concatenates them on record end. Useful for values of different fields in a record. This function does only emit values, when all sources emit something.",
+    "function_description" : {
+      "name" : "concat",
+      "dsl" : "metafacture",
+      "reference" : "concat",
+      "description" : "Collects all received values and concatenates them on record end. Useful for values of different fields in a record. This function does only emit values, when all sources emit something.",
+      "parameters" : {
+        "delimiter" : {
+          "type" : "text",
+          "optional" : true
+        },
+        "prefix" : {
+          "type" : "text",
+          "optional" : true
+        },
+        "postfix" : {
+          "type" : "text",
+          "optional" : true
+        }
+      }
+    },
+    "parameters" : [ "delimiter", "prefix", "postfix" ]
+  }, {
+    "type" : "Function",
+    "uuid" : "Function-81d714c9-2dc2-41a5-af19-d3b81ccb8a03",
+    "name" : "compose",
+    "description" : "Add pre- or postfix to a string.",
+    "function_description" : {
+      "name" : "compose",
+      "dsl" : "metafacture",
+      "reference" : "compose",
+      "description" : "Add pre- or postfix to a string.",
+      "parameters" : {
+        "prefix" : {
+          "type" : "text",
+          "optional" : true
+        },
+        "postfix" : {
+          "type" : "text",
+          "optional" : true
+        }
+      }
+    },
+    "parameters" : [ "prefix", "postfix" ]
   }, {
     "type" : "Function",
     "uuid" : "Function-36fc0b67-1daa-41c6-bb36-0ce3d826e5e8",
@@ -42004,6 +42273,19 @@
             "uuid" : "Attribute-50c7bb95-0efc-41e0-8281-38f441bf2482",
             "name" : "last_indexed",
             "uri" : "http://data.slub-dresden.de/schemas/Schema-5664ba0e-ccb3-4b71-8823-13281490de30/last_indexed"
+          } ]
+        },
+        "sub_schema" : null
+      }, {
+        "type" : "SchemaAttributePathInstance",
+        "uuid" : "SchemaAttributePathInstance-1c8ef44f-9f91-40ba-b7d9-c574cc68898e",
+        "name" : null,
+        "attribute_path" : {
+          "uuid" : "AttributePath-3fb8258c-5c83-49f6-b84e-5440aacfd9eb",
+          "attributes" : [ {
+            "uuid" : "Attribute-560e17cd-92b5-4102-ace1-29e824366577",
+            "name" : "format_de15",
+            "uri" : "http://data.slub-dresden.de/schemas/Schema-5664ba0e-ccb3-4b71-8823-13281490de30/format_de15"
           } ]
         },
         "sub_schema" : null

@@ -72,9 +72,9 @@
             "parameters" : [ "delimiter", "prefix", "postfix" ]
           },
           "input_components" : [ {
-            "uuid" : "10b2c9c7-d625-4edd-9ede-02b1778a4ef1"
-          }, {
             "uuid" : "0b9d863a-b19f-3a17-aaf9-aebb7e8b8ce3"
+          }, {
+            "uuid" : "10b2c9c7-d625-4edd-9ede-02b1778a4ef1"
           } ],
           "output_components" : null,
           "parameter_mappings" : {
@@ -41811,6 +41811,19 @@
             "uuid" : "Attribute-50c7bb95-0efc-41e0-8281-38f441bf2482",
             "name" : "last_indexed",
             "uri" : "http://data.slub-dresden.de/schemas/Schema-5664ba0e-ccb3-4b71-8823-13281490de30/last_indexed"
+          } ]
+        },
+        "sub_schema" : null
+      }, {
+        "type" : "SchemaAttributePathInstance",
+        "uuid" : "SchemaAttributePathInstance-1c8ef44f-9f91-40ba-b7d9-c574cc68898e",
+        "name" : null,
+        "attribute_path" : {
+          "uuid" : "AttributePath-3fb8258c-5c83-49f6-b84e-5440aacfd9eb",
+          "attributes" : [ {
+            "uuid" : "Attribute-560e17cd-92b5-4102-ace1-29e824366577",
+            "name" : "format_de15",
+            "uri" : "http://data.slub-dresden.de/schemas/Schema-5664ba0e-ccb3-4b71-8823-13281490de30/format_de15"
           } ]
         },
         "sub_schema" : null

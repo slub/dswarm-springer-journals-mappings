@@ -3,6 +3,107 @@
   "name" : "finc_springer_articles_constants",
   "description" : "finc_springer_articles_constants",
   "mappings" : [ {
+    "uuid" : "3f257bdb-055d-c1e4-4241-43277e194344",
+    "name" : "constant_format_de15",
+    "transformation" : {
+      "uuid" : "98cc64a8-76a0-6a0c-0802-f8e9676fda66",
+      "name" : "transformation",
+      "description" : "transformation",
+      "function" : {
+        "type" : "Transformation",
+        "uuid" : "07e90ac6-48b7-f475-0daa-06e78efef657",
+        "name" : "transformation",
+        "description" : "transformation",
+        "components" : [ {
+          "uuid" : "97a1051d-c4d5-cb4b-746e-ccf4e24f0afd",
+          "name" : "component11c6c85c-3b49-034b-8af2-4dc8416b0ce0",
+          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__be5da7e2-70e7-f134-c4a8-821ab0cd96be\",\"y\":0}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-8f5a6192-b8c2-4ba9-97b5-cef74912d1a7",
+            "name" : "constant",
+            "description" : "Sets literal value to a constant.",
+            "function_description" : {
+              "name" : "constant",
+              "dsl" : "metafacture",
+              "reference" : "constant",
+              "description" : "Sets literal value to a constant.",
+              "parameters" : {
+                "value" : {
+                  "type" : "text"
+                }
+              }
+            },
+            "parameters" : [ "value" ]
+          },
+          "input_components" : null,
+          "output_components" : null,
+          "parameter_mappings" : {
+            "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__be5da7e2-70e7-f134-c4a8-821ab0cd96be",
+            "value" : "Article, E-Article"
+          }
+        } ],
+        "function_description" : null,
+        "parameters" : null
+      },
+      "input_components" : null,
+      "output_components" : null,
+      "parameter_mappings" : {
+        "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__be5da7e2-70e7-f134-c4a8-821ab0cd96be" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__be5da7e2-70e7-f134-c4a8-821ab0cd96be",
+        "__TRANSFORMATION_OUTPUT_VARIABLE__b35eb0bb-b50e-3ba0-a870-c3d99c66177d" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__b35eb0bb-b50e-3ba0-a870-c3d99c66177d"
+      }
+    },
+    "input_attribute_paths" : [ {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "be5da7e2-70e7-f134-c4a8-821ab0cd96be",
+      "name" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__be5da7e2-70e7-f134-c4a8-821ab0cd96be",
+      "attribute_path" : {
+        "uuid" : "AttributePath-c7b80dc9-a55c-4d51-8a46-a5a49d716b0e",
+        "attributes" : [ {
+          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
+          "name" : "Journal",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
+        }, {
+          "uuid" : "Attribute-2cdeb81f-c60d-4411-8abf-5a1256b936e0",
+          "name" : "Volume",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Volume"
+        }, {
+          "uuid" : "Attribute-23d98239-a272-465f-8198-174b404a605c",
+          "name" : "Issue",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Issue"
+        }, {
+          "uuid" : "Attribute-09bc3b43-969a-442b-aab5-05b4bb9ebd2d",
+          "name" : "Article",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Article"
+        }, {
+          "uuid" : "Attribute-93a74d61-a9fd-4df0-8185-c28b3fb5ea75",
+          "name" : "ArticleInfo",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/ArticleInfo"
+        }, {
+          "uuid" : "Attribute-305a5cee-1bf2-4651-8fcc-6c17577e199d",
+          "name" : "ArticleDOI",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/ArticleDOI"
+        }, {
+          "uuid" : "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+          "name" : "value",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        } ]
+      }
+    } ],
+    "output_attribute_path" : {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "b35eb0bb-b50e-3ba0-a870-c3d99c66177d",
+      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__b35eb0bb-b50e-3ba0-a870-c3d99c66177d",
+      "attribute_path" : {
+        "uuid" : "AttributePath-3fb8258c-5c83-49f6-b84e-5440aacfd9eb",
+        "attributes" : [ {
+          "uuid" : "Attribute-560e17cd-92b5-4102-ace1-29e824366577",
+          "name" : "format_de15",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-5664ba0e-ccb3-4b71-8823-13281490de30/format_de15"
+        } ]
+      }
+    }
+  }, {
     "uuid" : "bcdddbf4-4865-a47a-fc4b-59dccc38fcd8",
     "name" : "constant_mega_collection",
     "transformation" : {
@@ -41864,6 +41965,19 @@
             "uuid" : "Attribute-50c7bb95-0efc-41e0-8281-38f441bf2482",
             "name" : "last_indexed",
             "uri" : "http://data.slub-dresden.de/schemas/Schema-5664ba0e-ccb3-4b71-8823-13281490de30/last_indexed"
+          } ]
+        },
+        "sub_schema" : null
+      }, {
+        "type" : "SchemaAttributePathInstance",
+        "uuid" : "SchemaAttributePathInstance-1c8ef44f-9f91-40ba-b7d9-c574cc68898e",
+        "name" : null,
+        "attribute_path" : {
+          "uuid" : "AttributePath-3fb8258c-5c83-49f6-b84e-5440aacfd9eb",
+          "attributes" : [ {
+            "uuid" : "Attribute-560e17cd-92b5-4102-ace1-29e824366577",
+            "name" : "format_de15",
+            "uri" : "http://data.slub-dresden.de/schemas/Schema-5664ba0e-ccb3-4b71-8823-13281490de30/format_de15"
           } ]
         },
         "sub_schema" : null
