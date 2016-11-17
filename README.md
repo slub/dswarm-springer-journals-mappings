@@ -2,6 +2,10 @@
 
 A repository containing all related information to process [d:swarm](http://dswarm.org) mappings that map data that conform to the Springer Journals schema.
 
+## Source Target Maps
+
+You can find the source target maps that are related to these mappings in a [Google Spreads Document](https://docs.google.com/spreadsheets/d/1An31LD1CcoRbfhLOnsnChXvPQb7ydhL2K9Z_2BW1qJg/edit?usp=sharing).
+
 ## Mappings
 
 All projects that contain mappings that map from the Springer Journals schema to a target schema.
@@ -55,3 +59,12 @@ Sample data that is utilised to test the mappings in the d:swarm Back Office UI
 ## Projects and Data Models Content
 
 Projects and the content of the related input data models can be inserted into a running d:swarm instance with help of the [d:swarm tools](https://github.com/dswarm/dswarm-tools)
+
+## Note
+ 
+ * the mapping to the institution field makes use of a lookup function in an SQL database for retrieving the holdings information (i.e. this mapping might be excluded and/or adapted, if you apply the mapping to your institution)
+ * the mapping to the fullrecord field makes use of a HTTP request function to a elasticsearch instance that contains the records mapped to the UBL Intermediate Format (i.e. this database needs to be provided upfront, if you wanna fill the fullrecord field)
+
+## Kudos
+
+The source target maps and mappings are initial implemented by [gertho](https://github.com/gertho).
