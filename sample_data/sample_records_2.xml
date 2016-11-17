@@ -1,0 +1,1165 @@
+<Publishers>
+	<Publisher>
+		<PublisherInfo>
+			<PublisherName>Springer London</PublisherName>
+			<PublisherLocation>London</PublisherLocation>
+			<PublisherImprintName>Springer</PublisherImprintName>
+		</PublisherInfo>
+		<Journal OutputMedium="All">
+			<JournalInfo NumberingStyle="Unnumbered" JournalProductType="ArchiveJournal">
+				<JournalID>10103</JournalID>
+				<JournalDOI>10.1007/10103.1435-604X</JournalDOI>
+				<JournalPrintISSN>0268-8921</JournalPrintISSN>
+				<JournalElectronicISSN>1435-604X</JournalElectronicISSN>
+				<JournalTitle>Lasers in Medical Science</JournalTitle>
+				<JournalAbbreviatedTitle>Lasers Med Sci</JournalAbbreviatedTitle>
+				<JournalSubjectGroup>
+					<JournalSubject Type="Primary" Code="SCH">Medicine &amp; Public Health</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="1" Code="SCH00007">Medicine/Public Health, general
+					</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="2" Code="SCD00009">Dentistry</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="3" Code="SCP31030">Laser Technology, Photonics
+					</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="4" Code="SCP24050">Quantum Optics</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="5" Code="SCP31060">Optics, Optoelectronics, Plasmonics
+						and Optical Devices
+					</JournalSubject>
+					<SubjectCollection Code="Medicine">SC11</SubjectCollection>
+				</JournalSubjectGroup>
+			</JournalInfo>
+			<Volume OutputMedium="All">
+				<VolumeInfo VolumeType="Regular" TocLevels="0">
+					<VolumeIDStart>31</VolumeIDStart>
+					<VolumeIDEnd>31</VolumeIDEnd>
+					<VolumeIssueCount>9</VolumeIssueCount>
+				</VolumeInfo>
+				<Issue OutputMedium="All" IssueType="Regular">
+					<IssueInfo TocLevels="0" IssueType="Regular">
+						<IssueIDStart>5</IssueIDStart>
+						<IssueIDEnd>5</IssueIDEnd>
+						<IssueArticleCount>28</IssueArticleCount>
+						<IssueHistory>
+							<OnlineDate>
+								<Year>2016</Year>
+								<Month>6</Month>
+								<Day>14</Day>
+							</OnlineDate>
+							<PrintDate>
+								<Year>2016</Year>
+								<Month>6</Month>
+								<Day>14</Day>
+							</PrintDate>
+							<CoverDate>
+								<Year>2016</Year>
+								<Month>7</Month>
+							</CoverDate>
+							<PricelistYear>2016</PricelistYear>
+						</IssueHistory>
+						<IssueCopyright>
+							<CopyrightHolderName>Springer-Verlag London</CopyrightHolderName>
+							<CopyrightYear>2016</CopyrightYear>
+						</IssueCopyright>
+					</IssueInfo>
+					<Article OutputMedium="All" ID="s10103-016-1920-0">
+						<ArticleInfo TocLevels="0" NumberingStyle="Unnumbered" Language="En" ContainsESM="No"
+						             ArticleType="OriginalPaper">
+							<ArticleID>1920</ArticleID>
+							<ArticleDOI>10.1007/s10103-016-1920-0</ArticleDOI>
+							<ArticleSequenceNumber>6</ArticleSequenceNumber>
+							<ArticleTitle Language="En">
+								<![CDATA[Control of hair growth using long-pulsed alexandrite laser is an efficient and cost effective therapy for patients suffering from recurrent pilonidal disease]]></ArticleTitle>
+							<ArticleCategory>Original Article</ArticleCategory>
+							<ArticleFirstPage>857</ArticleFirstPage>
+							<ArticleLastPage>862</ArticleLastPage>
+							<ArticleHistory>
+								<RegistrationDate>
+									<Year>2016</Year>
+									<Month>3</Month>
+									<Day>8</Day>
+								</RegistrationDate>
+								<Received>
+									<Year>2015</Year>
+									<Month>8</Month>
+									<Day>10</Day>
+								</Received>
+								<Accepted>
+									<Year>2016</Year>
+									<Month>3</Month>
+									<Day>8</Day>
+								</Accepted>
+								<OnlineDate>
+									<Year>2016</Year>
+									<Month>3</Month>
+									<Day>22</Day>
+								</OnlineDate>
+							</ArticleHistory>
+							<ArticleCopyright>
+								<CopyrightHolderName>Springer-Verlag London</CopyrightHolderName>
+								<CopyrightYear>2016</CopyrightYear>
+							</ArticleCopyright>
+							<ArticleGrants Type="Regular">
+								<MetadataGrant Grant="OpenAccess"/>
+								<AbstractGrant Grant="OpenAccess"/>
+								<BodyPDFGrant Grant="Restricted"/>
+								<BodyHTMLGrant Grant="Restricted"/>
+								<BibliographyGrant Grant="Restricted"/>
+								<ESMGrant Grant="Restricted"/>
+							</ArticleGrants>
+						</ArticleInfo>
+						<ArticleHeader>
+							<AuthorGroup>
+								<Author AffiliationIDS="Aff1">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Muhammad</GivenName>
+										<GivenName>Adil</GivenName>
+										<GivenName>Abbas</GivenName>
+										<FamilyName>Khan</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author ORCID="http://orcid.org/0000-0002-5463-5250" CorrespondingAffiliationID="Aff2"
+								        AffiliationIDS="Aff2">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Ammar</GivenName>
+										<GivenName>Asrar</GivenName>
+										<FamilyName>Javed</FamilyName>
+									</AuthorName>
+									<Contact>
+										<Phone>410-955-8290</Phone>
+										<Email>ajaved1@jhmi.edu</Email>
+									</Contact>
+								</Author>
+								<Author AffiliationIDS="Aff3">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Karthikeyan</GivenName>
+										<GivenName>Srinivasan</GivenName>
+										<FamilyName>Govindan</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff3">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Sadia</GivenName>
+										<FamilyName>Rafiq</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff3">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Kay</GivenName>
+										<FamilyName>Thomas</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff3">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Lynne</GivenName>
+										<FamilyName>Baker</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff3">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>John</GivenName>
+										<FamilyName>Kenealy</FamilyName>
+									</AuthorName>
+								</Author>
+								<Affiliation ID="Aff1">
+									<OrgDivision>Department of Plastic and Reconstructive Surgery</OrgDivision>
+									<OrgName>Ninewells Hospital</OrgName>
+									<OrgAddress>
+										<City>Dundee</City>
+										<Postcode>DD1 9SY</Postcode>
+										<Country Code="GB">UK</Country>
+									</OrgAddress>
+								</Affiliation>
+								<Affiliation ID="Aff2">
+									<OrgDivision>Department of Surgery, Center for Research Excellence and Surgical
+										Trials (CREST)
+									</OrgDivision>
+									<OrgName>The Johns Hopkins Hospital</OrgName>
+									<OrgAddress>
+										<Street>600 N. Wolfe St. / Blalock 618</Street>
+										<City>Baltimore</City>
+										<State>MD</State>
+										<Postcode>21287</Postcode>
+										<Country Code="US">USA</Country>
+									</OrgAddress>
+								</Affiliation>
+								<Affiliation ID="Aff3">
+									<OrgDivision>Department of Plastic and Reconstructive Surgery</OrgDivision>
+									<OrgName>Frenchay Hospital</OrgName>
+									<OrgAddress>
+										<City>Bristol</City>
+										<Postcode>BS161LE</Postcode>
+										<Country Code="GB">UK</Country>
+									</OrgAddress>
+								</Affiliation>
+							</AuthorGroup>
+							<Abstract OutputMedium="All" Language="En" ID="Abs1">
+								<Heading><![CDATA[Abstract]]></Heading>
+								<Para ID="Par1">
+									<![CDATA[Pilonidal sinus (PNS) and its surgical management have a profound impact on hospital resources in terms of finances and productive man-hours. Surgical treatment has been the mainstay of treatment of both acute and chronic pilonidal sinus but recurrence is common. The control of hair growth in the sinus region plays an important role in preventing recurrence. Here, we discuss our experience of treating 19 patients suffering from recurrent pilonidal sinus with laser depilation and its long-term cost effectiveness. This is a retrospective study on patients who had recurrence of pilonidal sinus following multiple surgical treatments. They were treated using long-pulsed alexandrite laser for depilation in the sinus area, an outpatient procedure. Their clinical characteristics and outcomes were then evaluated. There was a significant reduction in hair density after laser treatment (p < 0.001). The disease-free period after laser treatment was significantly longer than that one after surgical treatment (p < 0.001). The average cost of repeated surgical treatment per disease-free month was significantly higher than that of laser treatment (p < 0.001). Evidence suggests the role of natal cleft hair growth in the evolution of the pilonidal disease; therefore, control of hair growth should be considered as an adjunct to the initial treatment via surgery. Compared to surgical treatment of recurrences, laser depilation is an efficient and cost-effective method of preventing recurrence and reducing morbidity and loss of man-hours. We suggest that laser depilation of the pilonidal sinus should be funded by clinical commissioning groups.]]></Para>
+							</Abstract>
+							<KeywordGroup OutputMedium="All" Language="En">
+								<Heading><![CDATA[Keywords]]></Heading>
+								<Keyword><![CDATA[Pilonidal sinus]]></Keyword>
+								<Keyword><![CDATA[Recurrent pilonidal sinus]]></Keyword>
+								<Keyword><![CDATA[Laser treatment]]></Keyword>
+								<Keyword><![CDATA[Laser depilation]]></Keyword>
+								<Keyword><![CDATA[Cost reduction]]></Keyword>
+							</KeywordGroup>
+						</ArticleHeader>
+						<NoBody/>
+					</Article>
+				</Issue>
+			</Volume>
+		</Journal>
+	</Publisher>
+	<Publisher>
+		<PublisherInfo>
+			<PublisherName>Springer Netherlands</PublisherName>
+			<PublisherLocation>Dordrecht</PublisherLocation>
+			<PublisherImprintName>Springer</PublisherImprintName>
+		</PublisherInfo>
+		<Journal OutputMedium="All">
+			<JournalInfo NumberingStyle="Unnumbered" JournalProductType="ArchiveJournal">
+				<JournalID>10585</JournalID>
+				<JournalDOI>10.1007/10585.1573-7276</JournalDOI>
+				<JournalPrintISSN>0262-0898</JournalPrintISSN>
+				<JournalElectronicISSN>1573-7276</JournalElectronicISSN>
+				<JournalTitle>Clinical &amp; Experimental Metastasis</JournalTitle>
+				<JournalSubTitle>Official Journal of the Metastasis Research Society</JournalSubTitle>
+				<JournalAbbreviatedTitle>Clin Exp Metastasis</JournalAbbreviatedTitle>
+				<JournalSubjectGroup>
+					<JournalSubject Type="Primary" Code="SCB">Biomedicine</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="1" Code="SCB11001">Cancer Research</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="2" Code="SCB0000X">Biomedicine, general</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="3" Code="SCH33160">Oncology</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="4" Code="SCH3307X">Hematology</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="5" Code="SCH59150">Surgical Oncology</JournalSubject>
+					<SubjectCollection Code="Biomedical and Life Sciences">SC3</SubjectCollection>
+				</JournalSubjectGroup>
+			</JournalInfo>
+			<Volume OutputMedium="All">
+				<VolumeInfo VolumeType="Regular" TocLevels="0">
+					<VolumeIDStart>33</VolumeIDStart>
+					<VolumeIDEnd>33</VolumeIDEnd>
+					<VolumeIssueCount>8</VolumeIssueCount>
+				</VolumeInfo>
+				<Issue OutputMedium="All" IssueType="Regular">
+					<IssueInfo TocLevels="0" IssueType="Regular">
+						<IssueIDStart>7</IssueIDStart>
+						<IssueIDEnd>7</IssueIDEnd>
+						<IssueArticleCount>10</IssueArticleCount>
+						<IssueHistory>
+							<OnlineDate>
+								<Year>2016</Year>
+								<Month>9</Month>
+								<Day>23</Day>
+							</OnlineDate>
+							<PrintDate>
+								<Year>2016</Year>
+								<Month>9</Month>
+								<Day>23</Day>
+							</PrintDate>
+							<CoverDate>
+								<Year>2016</Year>
+								<Month>10</Month>
+							</CoverDate>
+							<PricelistYear>2016</PricelistYear>
+						</IssueHistory>
+						<IssueCopyright>
+							<CopyrightHolderName>Springer Science+Business Media Dordrecht</CopyrightHolderName>
+							<CopyrightYear>2016</CopyrightYear>
+						</IssueCopyright>
+					</IssueInfo>
+					<Article OutputMedium="All" ID="s10585-016-9802-1">
+						<ArticleInfo TocLevels="0" NumberingStyle="Unnumbered" Language="En" ContainsESM="No"
+						             ArticleType="OriginalPaper">
+							<ArticleID>9802</ArticleID>
+							<ArticleDOI>10.1007/s10585-016-9802-1</ArticleDOI>
+							<ArticleSequenceNumber>5</ArticleSequenceNumber>
+							<ArticleTitle OutputMedium="All" Language="En">
+								<![CDATA[Brain metastases as site of first and isolated recurrence of breast cancer: the role of systemic therapy after local treatment]]></ArticleTitle>
+							<ArticleCategory>Research Paper</ArticleCategory>
+							<ArticleFirstPage>677</ArticleFirstPage>
+							<ArticleLastPage>685</ArticleLastPage>
+							<ArticleHistory>
+								<RegistrationDate>
+									<Year>2016</Year>
+									<Month>5</Month>
+									<Day>9</Day>
+								</RegistrationDate>
+								<Received>
+									<Year>2016</Year>
+									<Month>2</Month>
+									<Day>9</Day>
+								</Received>
+								<Accepted>
+									<Year>2016</Year>
+									<Month>5</Month>
+									<Day>9</Day>
+								</Accepted>
+								<OnlineDate>
+									<Year>2016</Year>
+									<Month>5</Month>
+									<Day>25</Day>
+								</OnlineDate>
+							</ArticleHistory>
+							<ArticleCopyright>
+								<CopyrightHolderName>Springer Science+Business Media Dordrecht</CopyrightHolderName>
+								<CopyrightYear>2016</CopyrightYear>
+							</ArticleCopyright>
+							<ArticleGrants Type="Regular">
+								<MetadataGrant Grant="OpenAccess"/>
+								<AbstractGrant Grant="OpenAccess"/>
+								<BodyPDFGrant Grant="Restricted"/>
+								<BodyHTMLGrant Grant="Restricted"/>
+								<BibliographyGrant Grant="Restricted"/>
+								<ESMGrant Grant="Restricted"/>
+							</ArticleGrants>
+						</ArticleInfo>
+						<ArticleHeader>
+							<AuthorGroup>
+								<Author ID="Au1" CorrespondingAffiliationID="Aff1" AffiliationIDS="Aff1">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Anna</GivenName>
+										<FamilyName>Niwińska</FamilyName>
+									</AuthorName>
+									<Contact>
+										<Phone>+ 48 644 00 24</Phone>
+										<Email>annaniwinska@gmail.com</Email>
+									</Contact>
+								</Author>
+								<Affiliation ID="Aff1">
+									<OrgDivision>Department of Breast Cancer and Reconstructive Surgery</OrgDivision>
+									<OrgName>The Maria Skłodowska-Curie Memorial Cancer Center and Institute of
+										Oncology
+									</OrgName>
+									<OrgAddress>
+										<Street>ul. Roentgena 5</Street>
+										<Postcode>02-781</Postcode>
+										<City>Warsaw</City>
+										<Country Code="PL">Poland</Country>
+									</OrgAddress>
+								</Affiliation>
+							</AuthorGroup>
+							<Abstract OutputMedium="All" Language="En" ID="Abs1">
+								<Heading><![CDATA[Abstract]]></Heading>
+								<Para ID="Par1">
+									<![CDATA[The role of systemic treatment was assessed after local therapy for breast cancer patients who developed central nervous system (CNS) metastases as a first and isolated recurrence. Subjects were 128 breast cancer patients with brain metastases as the first and isolated site of recurrence that were selected from 673 consecutive breast cancer patients with brain metastases treated at the same institution. Median survival from brain metastases in patients with and without systemic treatment after local therapy was respectively 15 and 4 months (p < 0.001). In patients with a Karnofsky Performance Status ≥70 and those <70, survival was respectively 16 and 5.5 months (p < 0.001). The median survival from brain metastasis in patients with solitary brain metastasis, with and without systemic treatment after local therapy, was respectively 22 and 7 months (p = 0.003). Cox multivariate analysis demonstrated that good performance status, solitary brain metastasis and systemic therapy undertaken after local treatment were factors which prolonged survival. However patient survival was adversely affected by those having leptomeningeal metastasis associated with brain parenchymal lesions. Systemic therapy, undertaken after local treatment improved survival in those patients with breast cancer and brain metastases as the site of first and isolated recurrence. Further study is required in order to fully establish the role of systemic treatment for this patient group.]]></Para>
+							</Abstract>
+							<KeywordGroup OutputMedium="All" Language="En">
+								<Heading><![CDATA[Keywords]]></Heading>
+								<Keyword><![CDATA[Breast cancer]]></Keyword>
+								<Keyword><![CDATA[Brain metastases]]></Keyword>
+								<Keyword><![CDATA[First recurrence]]></Keyword>
+								<Keyword><![CDATA[Solitary brain metastasis]]></Keyword>
+								<Keyword><![CDATA[Systemic treatment]]></Keyword>
+							</KeywordGroup>
+						</ArticleHeader>
+						<NoBody/>
+					</Article>
+				</Issue>
+			</Volume>
+		</Journal>
+	</Publisher>
+	<Publisher>
+		<PublisherInfo>
+			<PublisherName>Springer Berlin Heidelberg</PublisherName>
+			<PublisherLocation>Berlin/Heidelberg</PublisherLocation>
+			<PublisherImprintName>SpringerMedizin</PublisherImprintName>
+		</PublisherInfo>
+		<Journal OutputMedium="All">
+			<JournalInfo NumberingStyle="Unnumbered" JournalProductType="NonStandardArchiveJournal">
+				<JournalID>106</JournalID>
+				<JournalDOI>10.1007/106.1433-0458</JournalDOI>
+				<JournalPrintISSN>0017-6192</JournalPrintISSN>
+				<JournalElectronicISSN>1433-0458</JournalElectronicISSN>
+				<JournalTitle>HNO</JournalTitle>
+				<JournalSubTitle>Deutsche Gesellschaft für Hals-Nasen-Ohren-Heilkunde, Kopf- und Hals-Chirurgie
+				</JournalSubTitle>
+				<JournalAbbreviatedTitle>HNO</JournalAbbreviatedTitle>
+				<JournalSubjectGroup>
+					<JournalSubject Type="Primary" Code="SCH">Medicine &amp; Public Health</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="1" Code="SCH46007">Otorhinolaryngology</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="2" Code="SCH39000">Neurosurgery</JournalSubject>
+					<SubjectCollection Code="Medicine">SC11</SubjectCollection>
+				</JournalSubjectGroup>
+			</JournalInfo>
+			<Volume OutputMedium="All">
+				<VolumeInfo VolumeType="Regular" TocLevels="0">
+					<VolumeIDStart>64</VolumeIDStart>
+					<VolumeIDEnd>64</VolumeIDEnd>
+					<VolumeIssueCount>12</VolumeIssueCount>
+				</VolumeInfo>
+				<Issue OutputMedium="All" IssueType="Regular">
+					<IssueInfo TocLevels="0" IssueType="Regular">
+						<IssueIDStart>2</IssueIDStart>
+						<IssueIDEnd>2</IssueIDEnd>
+						<IssueArticleCount>10</IssueArticleCount>
+						<IssueHistory>
+							<OnlineDate>
+								<Year>2016</Year>
+								<Month>2</Month>
+								<Day>11</Day>
+							</OnlineDate>
+							<PrintDate>
+								<Year>2016</Year>
+								<Month>2</Month>
+								<Day>11</Day>
+							</PrintDate>
+							<CoverDate>
+								<Year>2016</Year>
+								<Month>2</Month>
+							</CoverDate>
+							<PricelistYear>2016</PricelistYear>
+						</IssueHistory>
+						<IssueCopyright>
+							<CopyrightHolderName>Springer-Verlag Berlin Heidelberg</CopyrightHolderName>
+							<CopyrightYear>2016</CopyrightYear>
+						</IssueCopyright>
+					</IssueInfo>
+					<Article OutputMedium="All" ID="s00106-015-0100-z">
+						<ArticleInfo TocLevels="0" NumberingStyle="Unnumbered" Language="De" ContainsESM="No"
+						             ArticleType="OriginalPaper">
+							<ArticleID>100</ArticleID>
+							<ArticleDOI>10.1007/s00106-015-0100-z</ArticleDOI>
+							<ArticleSequenceNumber>5</ArticleSequenceNumber>
+							<ArticleTitle Language="De">
+								<![CDATA[Stapeschirurgie bei Otosklerose mit einer neuen Titanprothese mit superelastischem Nitinol-Clip]]></ArticleTitle>
+							<ArticleSubTitle Language="De"><![CDATA[Erste Erfahrungen]]></ArticleSubTitle>
+							<ArticleTitle Language="En">
+								<![CDATA[Stapes surgery for otosclerosis using a new titanium prosthesis with a superelastic nitinol clip]]></ArticleTitle>
+							<ArticleSubTitle Language="En"><![CDATA[First experiences]]></ArticleSubTitle>
+							<ArticleCategory>Originalien</ArticleCategory>
+							<ArticleFirstPage>111</ArticleFirstPage>
+							<ArticleLastPage>116</ArticleLastPage>
+							<ArticleHistory>
+								<RegistrationDate>
+									<Year>2015</Year>
+									<Month>11</Month>
+									<Day>13</Day>
+								</RegistrationDate>
+								<OnlineDate>
+									<Year>2015</Year>
+									<Month>12</Month>
+									<Day>11</Day>
+								</OnlineDate>
+							</ArticleHistory>
+							<ArticleCopyright>
+								<CopyrightHolderName>Springer-Verlag Berlin Heidelberg</CopyrightHolderName>
+								<CopyrightYear>2015</CopyrightYear>
+							</ArticleCopyright>
+							<ArticleGrants Type="Regular">
+								<MetadataGrant Grant="OpenAccess"/>
+								<AbstractGrant Grant="OpenAccess"/>
+								<BodyPDFGrant Grant="Restricted"/>
+								<BodyHTMLGrant Grant="Restricted"/>
+								<BibliographyGrant Grant="Restricted"/>
+								<ESMGrant Grant="Restricted"/>
+							</ArticleGrants>
+						</ArticleInfo>
+						<ArticleHeader>
+							<AuthorGroup>
+								<Author AffiliationIDS="Aff1">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>J.</GivenName>
+										<FamilyName>Zirkler</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff1">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>T.</GivenName>
+										<FamilyName>Rahne</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author CorrespondingAffiliationID="Aff1" AffiliationIDS="Aff1">
+									<AuthorName DisplayOrder="Western">
+										<Prefix>Prof. Dr. med.</Prefix>
+										<GivenName>S.</GivenName>
+										<GivenName>K.</GivenName>
+										<FamilyName>Plontke</FamilyName>
+									</AuthorName>
+									<Contact>
+										<Phone>+49-345-5571784</Phone>
+										<Fax>+49-345-5571859</Fax>
+										<Email>stefan.plontke@uk-halle.de</Email>
+									</Contact>
+								</Author>
+								<Affiliation ID="Aff1">
+									<OrgDivision>Universitätsklinik und Poliklinik für Hals-Nasen-Ohren-Heilkunde, Kopf-
+										und Hals-Chirurgie
+									</OrgDivision>
+									<OrgName>Martin-Luther-Universität Halle-Wittenberg</OrgName>
+									<OrgAddress>
+										<Street>Ernst-Grube-Str. 40</Street>
+										<Postcode>06120</Postcode>
+										<City>Halle (Saale)</City>
+										<Country Code="DE">Deutschland</Country>
+									</OrgAddress>
+								</Affiliation>
+							</AuthorGroup>
+							<Abstract OutputMedium="All" Language="De" ID="Abs1">
+								<Heading><![CDATA[Zusammenfassung]]></Heading>
+								<AbstractSection ID="ASec1">
+									<Heading><![CDATA[Hintergrund]]></Heading>
+									<Para>
+										<![CDATA[Die Ankopplung am langen Ambossfortsatz ist ein entscheidender Schritt in der Steigbügelchirurgie. Die Autoren berichten über erste Erfahrungen mit der neuen NiTiFLEX®-Stapesprothese, einer Weiterentwicklung der Soft-CliP®-Stapesprothese (Fa. Kurz, Dusslingen). Der CliP® besteht nicht mehr aus reinem Titan, sondern aus „superelastischem“ Nitinol, einer Nickel-Titan-Legierung. Die Applikationskraft auf den langen Ambossfortsatz wurde dadurch weiter reduziert. Das Risiko einer Ambossluxation soll minimiert sowie die Vereinfachung der Ankopplung weiter verbessert werden.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec2">
+									<Heading><![CDATA[Methode]]></Heading>
+									<Para>
+										<![CDATA[Im Rahmen einer monozentrischen, retrospektiven Kohortenstudie wurden die Verringerung der Schallleitungslücke (4PTA0,5–4kHz), das Einsilberverstehen bei 65 und 80 dB SPL und unerwünschte Ereignisse, wie die Veränderung der Knochenleitungsschwelle (4PTA0,5–4kHz) ausgewertet. In einem 12-Monats-Zeitraum von Mai 2014 bis April 2015 wurde bei 21 Patienten mit Otosklerose die Stapesoperation mittels NiTiFLEX-Prothese durchgeführt. Die Perforation der Fußplatte erfolgte in der Regel mittels CO2-Laser („scanning mode“; 0,7 mm; 20–21 W). Der Durchmesser des Titanpistons betrug jeweils 0,4 mm. Somit entsteht bei nahezu rechtwinkligem Eintauchen ein Spalt zwischen Fußplattenperforation und Pistonkolben von 0,15 mm. Das Aufschieben auf den langen Ambossfortsatz erfolgte mit einem 90°-Häkchen (0,6 mm).]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec3">
+									<Heading><![CDATA[Ergebnisse]]></Heading>
+									<Para>
+										<![CDATA[In allen Fällen konnte die NiTiFLEX-Stapesprothese komplikationslos eingesetzt werden. Die Knochenleitungsschwelle zeigte postoperativ im Mittel keine signifikante Änderung. Die mittlere Schallleitungslücke (4PTA0,5–4kHz) verbesserte sich von 29,0 dB HL auf postoperativ 9,5 dB HL. Die Handhabung der Prothese wurde als sehr gut eingeschätzt.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec4">
+									<Heading><![CDATA[Schlussfolgerung]]></Heading>
+									<Para>
+										<![CDATA[Unter Berücksichtigung der limitierten Erfahrung stellt die NiTiFLEX®-Stapesprothese eine sehr gut handhabbare Weiterentwicklung der Soft-CliP®-Technik dar. Die audiologischen Ergebnisse der kleinen Fallserie sind sehr zufriedenstellend und mit anderen Prothesen vergleichbar, wobei Langzeitergebnisse mit größeren Fallzahlen noch ausstehen.]]></Para>
+								</AbstractSection>
+							</Abstract>
+							<Abstract OutputMedium="All" Language="En" ID="Abs2">
+								<Heading><![CDATA[Abstract]]></Heading>
+								<AbstractSection ID="ASec5">
+									<Heading><![CDATA[Background]]></Heading>
+									<Para>
+										<![CDATA[Coupling of the prosthesis to the long process of the incus is a critical step in stapes surgery. We report first experiences with the NiTiFLEX® stapes prosthesis, a further development of the Soft CliP® stapes prosthesis (Kurz, Dusslingen, Germany). Instead of pure titanium, the CliP® now consists of nitinol, a superelastic nickel–titanium alloy. This further reduces the pressure exerted on the long process of the incus, aiming to improve coupling and minimize the risk of incus luxation.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec6">
+									<Heading><![CDATA[Methods]]></Heading>
+									<Para>
+										<![CDATA[In a monocentric, retrospective cohort study, we evaluated air-bone gap reduction (4PTA0.5–4kHz), understanding of monosyllables at 65 and 80 dB SPL stimulation levels, and adverse effects, such as changes in bone conduction (4PTA0.5–4kHz). During a 12-month period (May 2014 to April 2015), stapes surgery was performed in 21 otosclerosis patients using the NiTiFLEX® prosthesis. The footplate was perforated using a CO2 laser (scanning mode; 0.7 mm; 20–21 W) in almost all cases. The diameter of the titan piston was 0.4 mm. Immersion at an angle of almost 90° thus results in a gap between the footplate perforation and the piston of 0.15 mm. Positioning onto the long incus process was performed with a 90°microhook (0.6 mm).]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec7">
+									<Heading><![CDATA[Results]]></Heading>
+									<Para>
+										<![CDATA[In all cases the NiTiFLEX® stapes prosthesis was inserted without complications. The mean bone conduction threshold did not change significantly postoperatively and the mean air-bone gap (4PTA0.5–4 kHz) improved on average from 29.0 to 9.5 dB HL. Handling of the prosthesis was rated as very good.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec8">
+									<Heading><![CDATA[Conclusion]]></Heading>
+									<Para>
+										<![CDATA[The limited experience of this study suggests that the NiTiFLEX® stapes prosthesis is a successful further development of the Soft CliP® technique with very good intraoperative handling qualities. While long-term results from larger studies are needed, this case series demonstrates that the hearing outcome is comparable to other prostheses.]]></Para>
+								</AbstractSection>
+							</Abstract>
+							<KeywordGroup OutputMedium="All" Language="De">
+								<Heading><![CDATA[Schlüsselwörter]]></Heading>
+								<Keyword><![CDATA[Gehörknöchelchenersatz]]></Keyword>
+								<Keyword><![CDATA[Stapes]]></Keyword>
+								<Keyword><![CDATA[Otologische Operationsverfahren]]></Keyword>
+								<Keyword><![CDATA[CO2-Laser]]></Keyword>
+								<Keyword><![CDATA[Knochenleitung]]></Keyword>
+							</KeywordGroup>
+							<KeywordGroup OutputMedium="All" Language="En">
+								<Heading><![CDATA[Keywords]]></Heading>
+								<Keyword><![CDATA[Ossicular replacement]]></Keyword>
+								<Keyword><![CDATA[Stapes]]></Keyword>
+								<Keyword><![CDATA[Otologic surgical procedures]]></Keyword>
+								<Keyword><![CDATA[CO2 lasers]]></Keyword>
+								<Keyword><![CDATA[Bone conduction]]></Keyword>
+							</KeywordGroup>
+							<ArticleNote Type="CommunicatedBy">
+								<Heading><![CDATA[Redaktion]]></Heading>
+								<SimplePara><![CDATA[P.K. Plinkert, Heidelberg]]></SimplePara>
+								<SimplePara><![CDATA[B. Wollenberg, Lübeck]]></SimplePara>
+							</ArticleNote>
+						</ArticleHeader>
+						<NoBody/>
+					</Article>
+				</Issue>
+			</Volume>
+		</Journal>
+	</Publisher>
+	<Publisher>
+		<PublisherInfo>
+			<PublisherName>Springer Berlin Heidelberg</PublisherName>
+			<PublisherLocation>Berlin/Heidelberg</PublisherLocation>
+			<PublisherImprintName>SpringerMedizin</PublisherImprintName>
+		</PublisherInfo>
+		<Journal OutputMedium="All">
+			<JournalInfo NumberingStyle="Unnumbered" JournalProductType="NonStandardArchiveJournal">
+				<JournalID>106</JournalID>
+				<JournalDOI>10.1007/106.1433-0458</JournalDOI>
+				<JournalPrintISSN>0017-6192</JournalPrintISSN>
+				<JournalElectronicISSN>1433-0458</JournalElectronicISSN>
+				<JournalTitle>HNO</JournalTitle>
+				<JournalSubTitle>Deutsche Gesellschaft für Hals-Nasen-Ohren-Heilkunde, Kopf- und Hals-Chirurgie
+				</JournalSubTitle>
+				<JournalAbbreviatedTitle>HNO</JournalAbbreviatedTitle>
+				<JournalSubjectGroup>
+					<JournalSubject Type="Primary" Code="SCH">Medicine &amp; Public Health</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="1" Code="SCH46007">Otorhinolaryngology</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="2" Code="SCH39000">Neurosurgery</JournalSubject>
+					<SubjectCollection Code="Medicine">SC11</SubjectCollection>
+				</JournalSubjectGroup>
+			</JournalInfo>
+			<Volume OutputMedium="All">
+				<VolumeInfo VolumeType="Regular" TocLevels="0">
+					<VolumeIDStart>64</VolumeIDStart>
+					<VolumeIDEnd>64</VolumeIDEnd>
+					<VolumeIssueCount>12</VolumeIssueCount>
+				</VolumeInfo>
+				<Issue OutputMedium="All" IssueType="Regular">
+					<IssueInfo TocLevels="0" IssueType="Regular">
+						<IssueIDStart>1</IssueIDStart>
+						<IssueIDEnd>1</IssueIDEnd>
+						<IssueArticleCount>13</IssueArticleCount>
+						<IssueHistory>
+							<OnlineDate>
+								<Year>2016</Year>
+								<Month>1</Month>
+								<Day>15</Day>
+							</OnlineDate>
+							<PrintDate>
+								<Year>2016</Year>
+								<Month>1</Month>
+								<Day>15</Day>
+							</PrintDate>
+							<CoverDate>
+								<Year>2016</Year>
+								<Month>1</Month>
+							</CoverDate>
+							<PricelistYear>2016</PricelistYear>
+						</IssueHistory>
+						<IssueCopyright>
+							<CopyrightHolderName>Springer-Verlag Berlin Heidelberg</CopyrightHolderName>
+							<CopyrightYear>2016</CopyrightYear>
+						</IssueCopyright>
+					</IssueInfo>
+					<Article OutputMedium="All" ID="s00106-015-0104-8">
+						<ArticleInfo TocLevels="0" NumberingStyle="Unnumbered" Language="De" ContainsESM="No"
+						             ArticleType="OriginalPaper">
+							<ArticleID>104</ArticleID>
+							<ArticleDOI>10.1007/s00106-015-0104-8</ArticleDOI>
+							<ArticleSequenceNumber>8</ArticleSequenceNumber>
+							<ArticleTitle Language="De">
+								<![CDATA[Optische Diagnoseverfahren zur Tumorfrühdiagnostik im oberen Luft-Speise-Weg]]></ArticleTitle>
+							<ArticleSubTitle Language="De"><![CDATA[Quo vadis?]]></ArticleSubTitle>
+							<ArticleTitle Language="En">
+								<![CDATA[Optical diagnostic methods for early tumour diagnosis in the upper aerodigestive tract]]></ArticleTitle>
+							<ArticleSubTitle Language="En"><![CDATA[Quo vadis?]]></ArticleSubTitle>
+							<ArticleCategory>Leitthema</ArticleCategory>
+							<ArticleFirstPage>41</ArticleFirstPage>
+							<ArticleLastPage>48</ArticleLastPage>
+							<ArticleHistory>
+								<RegistrationDate>
+									<Year>2015</Year>
+									<Month>11</Month>
+									<Day>19</Day>
+								</RegistrationDate>
+								<OnlineDate>
+									<Year>2015</Year>
+									<Month>12</Month>
+									<Day>14</Day>
+								</OnlineDate>
+							</ArticleHistory>
+							<ArticleCopyright>
+								<CopyrightHolderName>Springer-Verlag Berlin Heidelberg</CopyrightHolderName>
+								<CopyrightYear>2015</CopyrightYear>
+							</ArticleCopyright>
+							<ArticleGrants Type="Regular">
+								<MetadataGrant Grant="OpenAccess"/>
+								<AbstractGrant Grant="OpenAccess"/>
+								<BodyPDFGrant Grant="Restricted"/>
+								<BodyHTMLGrant Grant="Restricted"/>
+								<BibliographyGrant Grant="Restricted"/>
+								<ESMGrant Grant="Restricted"/>
+							</ArticleGrants>
+						</ArticleInfo>
+						<ArticleHeader>
+							<AuthorGroup>
+								<Author CorrespondingAffiliationID="Aff1" AffiliationIDS="Aff1">
+									<AuthorName DisplayOrder="Western">
+										<Prefix>Priv.-Doz. Dr.</Prefix>
+										<GivenName>C.</GivenName>
+										<GivenName>S.</GivenName>
+										<FamilyName>Betz</FamilyName>
+									</AuthorName>
+									<Contact>
+										<Phone>+49-89-44000</Phone>
+										<Fax>+49-89-440076869</Fax>
+										<Email>christian.betz@med.uni-muenchen.de</Email>
+									</Contact>
+								</Author>
+								<Author AffiliationIDS="Aff2">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>M.</GivenName>
+										<FamilyName>Kraft</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff3">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>C.</GivenName>
+										<FamilyName>Arens</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff1">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>M.</GivenName>
+										<FamilyName>Schuster</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff1">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>C.</GivenName>
+										<FamilyName>Pfeffer</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff4">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>A.</GivenName>
+										<FamilyName>Rühm</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff4">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>H.</GivenName>
+										<FamilyName>Stepp</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff1">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>A.</GivenName>
+										<FamilyName>Englhard</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author AffiliationIDS="Aff1">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>V.</GivenName>
+										<FamilyName>Volgger</FamilyName>
+									</AuthorName>
+								</Author>
+								<Affiliation ID="Aff1">
+									<OrgDivision>Klinik und Poliklinik für Hals-, Nasen- und Ohrenheilkunde
+									</OrgDivision>
+									<OrgName>Klinikum der Universität München</OrgName>
+									<OrgAddress>
+										<Street>Marchioninistr. 15</Street>
+										<Postcode>81377</Postcode>
+										<City>München</City>
+										<Country Code="DE">Deutschland</Country>
+									</OrgAddress>
+								</Affiliation>
+								<Affiliation ID="Aff2">
+									<OrgDivision>Klinik für Hals-, Nasen- und Ohrenheilkunde, Hals- und
+										Gesichtschirurgie
+									</OrgDivision>
+									<OrgName>Kantonsspital Baselland</OrgName>
+									<OrgAddress>
+										<City>Liestal</City>
+										<Country Code="CH">Schweiz</Country>
+									</OrgAddress>
+								</Affiliation>
+								<Affiliation ID="Aff3">
+									<OrgDivision>Universitätsklinik für Hals-, Nasen- und Ohrenheilkunde</OrgDivision>
+									<OrgName>Universitätsklinikum Magdeburg A.ö.R.</OrgName>
+									<OrgAddress>
+										<City>Magdeburg</City>
+										<Country Code="DE">Deutschland</Country>
+									</OrgAddress>
+								</Affiliation>
+								<Affiliation ID="Aff4">
+									<OrgDivision>Laser-Forschungslabor am LIFE-Zentrum</OrgDivision>
+									<OrgName>Klinikum der Universität München</OrgName>
+									<OrgAddress>
+										<City>München</City>
+										<Country Code="DE">Deutschland</Country>
+									</OrgAddress>
+								</Affiliation>
+							</AuthorGroup>
+							<Abstract OutputMedium="All" Language="De" ID="Abs1">
+								<Heading><![CDATA[Zusammenfassung]]></Heading>
+								<AbstractSection ID="ASec1">
+									<Heading><![CDATA[Hintergrund]]></Heading>
+									<Para>
+										<![CDATA[Optische Diagnoseverfahren können die Tumorfrühdiagnostik im oberen Luft-Speise-Weg erleichtern und verbessern, haben sich jedoch bisher in der klinischen Routine nicht durchsetzen können.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec2">
+									<Heading><![CDATA[Ziel der Arbeit]]></Heading>
+									<Para>
+										<![CDATA[Ziel war die Definition der Probleme, die den Routineeinsatz optischer Diagnoseverfahren bisher verhindern, sowie Aufführung und Erläuterung möglicher, zukunftsweisender Lösungsansätze zur Überwindung derselben.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec3">
+									<Heading><![CDATA[Material und Methoden]]></Heading>
+									<Para>
+										<![CDATA[Es erfolgte eine kombinierte Auswertung öffentlich zugänglicher Datenbanken (PubMed MEDLINE, Thompson Reuters Web of Science, SPIE. Digital Library; gesamter verfügbarer Zeitraum; Suchbegriffe: „oral cavity“, „pharynx“, „larnyx“, „optical diagnosis“, „optical biopsy“, „optical coherence tomography“, „confocal endomicroscopy“, „fluorescence endoscopy“, „narrow band imaging“, „non-linear imaging“, „fluorescence lifetime imaging“) sowie persönlicher Erfahrungen.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec4">
+									<Heading><![CDATA[Ergebnisse]]></Heading>
+									<Para>
+										<![CDATA[Sowohl konzeptionelle als auch methodische Probleme können ausgemacht werden, und es werden anhand der gegenwärtig absehbaren Entwicklungen unterschiedliche Lösungsansätze diskutiert.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec5">
+									<Heading><![CDATA[Diskussion]]></Heading>
+									<Para>
+										<![CDATA[Optische Diagnoseverfahren haben das Potenzial, die Frühdiagnostik von Malignomen des oberen Luft-Speise-Wegs zu revolutionieren, wenn es gelingt, die verschiedenen in diesem Beitrag aufgeführten Hürden zu überwinden.]]></Para>
+								</AbstractSection>
+							</Abstract>
+							<Abstract OutputMedium="All" Language="En" ID="Abs2">
+								<Heading><![CDATA[Abstract]]></Heading>
+								<AbstractSection ID="ASec6">
+									<Heading><![CDATA[Background]]></Heading>
+									<Para>
+										<![CDATA[Optical diagnostic methods may simplify and improve the early diagnosis of tumours of the upper aerodigestive tract; however, these have not yet found their way into clinical routine.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec7">
+									<Heading><![CDATA[Objective]]></Heading>
+									<Para>
+										<![CDATA[This article aims to define the problems that have prevented routine use of optical diagnostic methods so far, as well as listing and also explaining potential trendsetting approaches to overcome these difficulties.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec8">
+									<Heading><![CDATA[Materials and methods]]></Heading>
+									<Para>
+										<![CDATA[The study is based on a combined analysis of publically accessible databases (PubMed MEDLINE, Thompson Reuters Web of Science, SPIE. Digital Library; full time period available; search strings: “oral cavity”, “pharynx”, “larnyx”, “optical diagnosis”, “optical biopsy”, “optical coherence tomography”, “confocal endomicroscopy”, “fluorescence endoscopy”, “narrow band imaging”, “non-linear imaging”, “fluorescence lifetime imaging”), as well as personal experiences.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec9">
+									<Heading><![CDATA[Results]]></Heading>
+									<Para>
+										<![CDATA[Both conceptual and methodical problems were determined, and possible solutions based on current developments are discussed.]]></Para>
+								</AbstractSection>
+								<AbstractSection ID="ASec10">
+									<Heading><![CDATA[Conclusion]]></Heading>
+									<Para>
+										<![CDATA[Optical diagnostic methods have the potential to revolutionise early diagnosis of upper aerodigestive tract malignancies, providing the different hurdles listed in this review can be overcome.]]></Para>
+								</AbstractSection>
+							</Abstract>
+							<KeywordGroup OutputMedium="All" Language="De">
+								<Heading><![CDATA[Schlüsselwörter]]></Heading>
+								<Keyword><![CDATA[Optische Bildgebungsverfahren]]></Keyword>
+								<Keyword><![CDATA[Neoplasien des oberen Luft-Speise-Wegs]]></Keyword>
+								<Keyword><![CDATA[Frühdiagnostik]]></Keyword>
+								<Keyword><![CDATA[Pharynx]]></Keyword>
+								<Keyword><![CDATA[Larynx]]></Keyword>
+							</KeywordGroup>
+							<KeywordGroup OutputMedium="All" Language="En">
+								<Heading><![CDATA[Keywords]]></Heading>
+								<Keyword><![CDATA[Optical imaging]]></Keyword>
+								<Keyword><![CDATA[Upper aerodigestive tract neoplasms]]></Keyword>
+								<Keyword><![CDATA[Early diagnosis]]></Keyword>
+								<Keyword><![CDATA[Pharynx]]></Keyword>
+								<Keyword><![CDATA[Larynx]]></Keyword>
+							</KeywordGroup>
+						</ArticleHeader>
+						<NoBody/>
+					</Article>
+				</Issue>
+			</Volume>
+		</Journal>
+	</Publisher>
+	<Publisher>
+		<PublisherInfo>
+			<PublisherName>Springer Netherlands</PublisherName>
+			<PublisherLocation>Dordrecht</PublisherLocation>
+			<PublisherImprintName>Springer</PublisherImprintName>
+		</PublisherInfo>
+		<Journal OutputMedium="All">
+			<JournalInfo NumberingStyle="Unnumbered" JournalProductType="ArchiveJournal">
+				<JournalID>10585</JournalID>
+				<JournalDOI>10.1007/10585.1573-7276</JournalDOI>
+				<JournalPrintISSN>0262-0898</JournalPrintISSN>
+				<JournalElectronicISSN>1573-7276</JournalElectronicISSN>
+				<JournalTitle>Clinical &amp; Experimental Metastasis</JournalTitle>
+				<JournalSubTitle>Official Journal of the Metastasis Research Society</JournalSubTitle>
+				<JournalAbbreviatedTitle>Clin Exp Metastasis</JournalAbbreviatedTitle>
+				<JournalSubjectGroup>
+					<JournalSubject Type="Primary" Code="SCB">Biomedicine</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="1" Code="SCB11001">Cancer Research</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="2" Code="SCB0000X">Biomedicine, general</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="3" Code="SCH33160">Oncology</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="4" Code="SCH3307X">Hematology</JournalSubject>
+					<JournalSubject Type="Secondary" Priority="5" Code="SCH59150">Surgical Oncology</JournalSubject>
+					<SubjectCollection Code="Biomedical and Life Sciences">SC3</SubjectCollection>
+				</JournalSubjectGroup>
+			</JournalInfo>
+			<Volume OutputMedium="All">
+				<VolumeInfo VolumeType="Regular" TocLevels="0">
+					<VolumeIDStart>33</VolumeIDStart>
+					<VolumeIDEnd>33</VolumeIDEnd>
+					<VolumeIssueCount>8</VolumeIssueCount>
+				</VolumeInfo>
+				<Issue OutputMedium="All" IssueType="Regular">
+					<IssueInfo TocLevels="0" IssueType="Regular">
+						<IssueIDStart>7</IssueIDStart>
+						<IssueIDEnd>7</IssueIDEnd>
+						<IssueArticleCount>10</IssueArticleCount>
+						<IssueHistory>
+							<OnlineDate>
+								<Year>2016</Year>
+								<Month>9</Month>
+								<Day>23</Day>
+							</OnlineDate>
+							<PrintDate>
+								<Year>2016</Year>
+								<Month>9</Month>
+								<Day>23</Day>
+							</PrintDate>
+							<CoverDate>
+								<Year>2016</Year>
+								<Month>10</Month>
+							</CoverDate>
+							<PricelistYear>2016</PricelistYear>
+						</IssueHistory>
+						<IssueCopyright>
+							<CopyrightHolderName>Springer Science+Business Media Dordrecht</CopyrightHolderName>
+							<CopyrightYear>2016</CopyrightYear>
+						</IssueCopyright>
+					</IssueInfo>
+					<Article OutputMedium="All" ID="s10585-016-9803-0">
+						<ArticleInfo TocLevels="0" NumberingStyle="Unnumbered" Language="En" ContainsESM="Yes"
+						             ArticleType="OriginalPaper">
+							<ArticleID>9803</ArticleID>
+							<ArticleDOI>10.1007/s10585-016-9803-0</ArticleDOI>
+							<ArticleSequenceNumber>2</ArticleSequenceNumber>
+							<ArticleTitle OutputMedium="All" Language="En">
+								<![CDATA[Matricellular TSP-1 as a target of interest for impeding melanoma spreading: towards a therapeutic use for TAX2 peptide]]></ArticleTitle>
+							<ArticleCategory>Research Paper</ArticleCategory>
+							<ArticleFirstPage>637</ArticleFirstPage>
+							<ArticleLastPage>649</ArticleLastPage>
+							<ArticleHistory>
+								<RegistrationDate>
+									<Year>2016</Year>
+									<Month>5</Month>
+									<Day>27</Day>
+								</RegistrationDate>
+								<Received>
+									<Year>2016</Year>
+									<Month>2</Month>
+									<Day>23</Day>
+								</Received>
+								<Accepted>
+									<Year>2016</Year>
+									<Month>5</Month>
+									<Day>27</Day>
+								</Accepted>
+								<OnlineDate>
+									<Year>2016</Year>
+									<Month>6</Month>
+									<Day>27</Day>
+								</OnlineDate>
+							</ArticleHistory>
+							<ArticleFundingInformation>
+								<Fund>
+									<FunderName>SATT Nord</FunderName>
+								</Fund>
+								<Fund>
+									<FunderName>Centre National de la Recherche Scientifique (CNRS)</FunderName>
+								</Fund>
+								<Fund>
+									<FunderName>Région Champagne-Ardenne</FunderName>
+								</Fund>
+								<Fund>
+									<FunderName>Ministère de l'Enseignement Supérieur et de la Recherche (FR)
+									</FunderName>
+								</Fund>
+							</ArticleFundingInformation>
+							<ArticleCopyright>
+								<CopyrightHolderName>Springer Science+Business Media Dordrecht</CopyrightHolderName>
+								<CopyrightYear>2016</CopyrightYear>
+							</ArticleCopyright>
+							<ArticleGrants Type="Regular">
+								<MetadataGrant Grant="OpenAccess"/>
+								<AbstractGrant Grant="OpenAccess"/>
+								<BodyPDFGrant Grant="Restricted"/>
+								<BodyHTMLGrant Grant="Restricted"/>
+								<BibliographyGrant Grant="Restricted"/>
+								<ESMGrant Grant="Restricted"/>
+							</ArticleGrants>
+						</ArticleInfo>
+						<ArticleHeader>
+							<AuthorGroup>
+								<Author ID="Au1" AffiliationIDS="Aff1 Aff2 Aff3">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Albin</GivenName>
+										<FamilyName>Jeanne</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author ID="Au2" AffiliationIDS="Aff2 Aff4">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Camille</GivenName>
+										<FamilyName>Boulagnon-Rombi</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author ID="Au3" AffiliationIDS="Aff1 Aff2">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Jérôme</GivenName>
+										<FamilyName>Devy</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author ID="Au4" AffiliationIDS="Aff1 Aff2">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Louis</GivenName>
+										<FamilyName>Théret</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author ID="Au5" AffiliationIDS="Aff5">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Caroline</GivenName>
+										<FamilyName>Fichel</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author ID="Au6" AffiliationIDS="Aff5">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Nicole</GivenName>
+										<FamilyName>Bouland</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author ID="Au7" AffiliationIDS="Aff2 Aff4">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Marie-Danièle</GivenName>
+										<FamilyName>Diebold</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author ID="Au8" AffiliationIDS="Aff1 Aff2">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Laurent</GivenName>
+										<FamilyName>Martiny</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author ID="Au9" AffiliationIDS="Aff1 Aff2">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Christophe</GivenName>
+										<FamilyName>Schneider</FamilyName>
+									</AuthorName>
+								</Author>
+								<Author ID="Au10" CorrespondingAffiliationID="Aff1" AffiliationIDS="Aff1 Aff2">
+									<AuthorName DisplayOrder="Western">
+										<GivenName>Stéphane</GivenName>
+										<FamilyName>Dedieu</FamilyName>
+									</AuthorName>
+									<Contact>
+										<Phone>+(33) 3 26 91 32 69</Phone>
+										<Email>stephane.dedieu@univ-reims.fr</Email>
+									</Contact>
+								</Author>
+								<Affiliation ID="Aff1">
+									<OrgName>Laboratoire SiRMa, Campus Moulin de La Housse, Université de Reims
+										Champagne-Ardenne (URCA), UFR Sciences Exactes Et Naturelles
+									</OrgName>
+									<OrgAddress>
+										<Postbox>BP 1039</Postbox>
+										<Postcode>51687</Postcode>
+										<City>Reims Cedex 2</City>
+										<Country Code="FR">France</Country>
+									</OrgAddress>
+								</Affiliation>
+								<Affiliation ID="Aff2">
+									<OrgName>CNRS UMR 7369, Unité Matrice Extracellulaire Et Dynamique Cellulaire,
+										MEDyC
+									</OrgName>
+									<OrgAddress>
+										<City>Reims</City>
+										<Country Code="FR">France</Country>
+									</OrgAddress>
+								</Affiliation>
+								<Affiliation ID="Aff3">
+									<OrgName>SATT Nord</OrgName>
+									<OrgAddress>
+										<City>Lille</City>
+										<Country Code="FR">France</Country>
+									</OrgAddress>
+								</Affiliation>
+								<Affiliation ID="Aff4">
+									<OrgName>CHU de Reims, Laboratoire Central D’Anatomie Et de Cytologie
+										Pathologiques
+									</OrgName>
+									<OrgAddress>
+										<City>Reims</City>
+										<Country Code="FR">France</Country>
+									</OrgAddress>
+								</Affiliation>
+								<Affiliation ID="Aff5">
+									<OrgName>Université de Reims Champagne-Ardenne, Laboratoire D’Anatomie Pathologique,
+										UFR Médecine
+									</OrgName>
+									<OrgAddress>
+										<City>Reims</City>
+										<Country Code="FR">France</Country>
+									</OrgAddress>
+								</Affiliation>
+							</AuthorGroup>
+							<Abstract OutputMedium="All" Language="En" ID="Abs1">
+								<Heading><![CDATA[Abstract]]></Heading>
+								<Para ID="Par1">
+									<![CDATA[Thrombospondin-1 (TSP-1) is a matricellular glycoprotein known for being highly expressed within a tumor microenvironment, where it promotes an aggressive phenotype particularly by interacting with the CD47 cell-surface receptor. While it originates from the stromal compartment in many malignancies, melanoma is an exception as invasive and metastatic melanoma cells overexpress TSP-1. We recently demonstrated that a new molecular agent that selectively prevents TSP-1 binding to CD47, called TAX2, exhibits anti-cancer properties when administered systemically by decreasing viable tumor tissue within subcutaneous B16 melanoma allografts. At the same time, emerging evidence was published suggesting a contribution of TSP-1 in melanoma metastatic dissemination and resistance to treatment. Through a comprehensive systems biology approach based on multiple genomics and proteomics databases analyses, we first identified a TSP-1-centered interaction network that is overexpressed in metastatic melanoma. Then, we investigated the effects of disrupting TSP-1:CD47 interaction in A375 human malignant melanoma xenografts. In this model, TAX2 systemic administrations induce tumor necrosis by decreasing intra-tumoral blood flow, while concomitantly making tumors less infiltrative. Besides, TAX2 treatment also drastically inhibits B16F10 murine melanoma cells metastatic dissemination and growth in a syngeneic experimental model of lung metastasis, as demonstrated by histopathological analyses as well as longitudinal and quantitative µCT follow-up of metastatic progression. Altogether, the results obtained by combining bioinformatics and preclinical studies strongly suggest that targeting TSP-1/CD47 axis may represent a valuable therapeutic alternative for hampering melanoma spreading.]]></Para>
+							</Abstract>
+							<KeywordGroup OutputMedium="All" Language="En">
+								<Heading><![CDATA[Keywords]]></Heading>
+								<Keyword><![CDATA[Thrombospondin-1]]></Keyword>
+								<Keyword><![CDATA[CD47]]></Keyword>
+								<Keyword><![CDATA[TAX2 peptide]]></Keyword>
+								<Keyword><![CDATA[Melanoma]]></Keyword>
+								<Keyword><![CDATA[Metastasis]]></Keyword>
+								<Keyword><![CDATA[Innovative therapeutic strategy]]></Keyword>
+							</KeywordGroup>
+							<AbbreviationGroup>
+								<Heading><![CDATA[Abbreviations]]></Heading>
+								<DefinitionList>
+									<DefinitionListEntry>
+										<Term><![CDATA[3TSR]]></Term>
+										<Description>
+											<Para ID="Par2"><![CDATA[Three thrombospondin-1 type 1 repeats]]></Para>
+										</Description>
+									</DefinitionListEntry>
+									<DefinitionListEntry>
+										<Term><![CDATA[ECM]]></Term>
+										<Description>
+											<Para ID="Par3"><![CDATA[Extracellular matrix]]></Para>
+										</Description>
+									</DefinitionListEntry>
+									<DefinitionListEntry>
+										<Term><![CDATA[EMT]]></Term>
+										<Description>
+											<Para ID="Par4"><![CDATA[Epithelial-to-mesenchymal transition]]></Para>
+										</Description>
+									</DefinitionListEntry>
+									<DefinitionListEntry>
+										<Term><![CDATA[MST]]></Term>
+										<Description>
+											<Para ID="Par5"><![CDATA[Microscale thermophoresis]]></Para>
+										</Description>
+									</DefinitionListEntry>
+									<DefinitionListEntry>
+										<Term><![CDATA[PPI]]></Term>
+										<Description>
+											<Para ID="Par6"><![CDATA[Protein-protein interaction]]></Para>
+										</Description>
+									</DefinitionListEntry>
+									<DefinitionListEntry>
+										<Term><![CDATA[SIRPα]]></Term>
+										<Description>
+											<Para ID="Par7"><![CDATA[Signal-regulatory protein-alpha]]></Para>
+										</Description>
+									</DefinitionListEntry>
+									<DefinitionListEntry>
+										<Term><![CDATA[SPR]]></Term>
+										<Description>
+											<Para ID="Par8"><![CDATA[Surface plasmon resonance]]></Para>
+										</Description>
+									</DefinitionListEntry>
+									<DefinitionListEntry>
+										<Term><![CDATA[TSP-1]]></Term>
+										<Description>
+											<Para ID="Par9"><![CDATA[Thrombospondin-1]]></Para>
+										</Description>
+									</DefinitionListEntry>
+									<DefinitionListEntry>
+										<Term><![CDATA[µCT]]></Term>
+										<Description>
+											<Para ID="Par10"><![CDATA[Micro-computed tomography]]></Para>
+										</Description>
+									</DefinitionListEntry>
+								</DefinitionList>
+							</AbbreviationGroup>
+							<ArticleNote Type="ESMHint">
+								<Heading><![CDATA[Electronic supplementary material]]></Heading>
+								<SimplePara>
+									<![CDATA[The online version of this article (doi:10.1007/s10585-016-9803-0) contains supplementary material, which is available to authorized users.]]></SimplePara>
+							</ArticleNote>
+						</ArticleHeader>
+						<NoBody/>
+					</Article>
+				</Issue>
+			</Volume>
+		</Journal>
+	</Publisher>
+</Publishers>
