@@ -1,6 +1,6 @@
 # Springer Journals Mappings in d:swarm
 
-A repository containing all related information to process d:swarm mappings that map data that conform to the Springer Journals schema.
+A repository containing all related information to process [d:swarm](http://dswarm.org) mappings that map data that conform to the Springer Journals schema.
 
 ## Mappings
 
