@@ -43,18 +43,18 @@ Following projects contain mappings from Springer Journals schema to [finc Solr 
 
 [TPU](https://github.com/dswarm/task-processing-unit-for-dswarm) configurations that need to be completed with
  * paths for input and output folder and 
- * the path to the configuration that should be utilised to process the data resources (this configuration can be found at ````tpu_configs/import-springer-journals-config.json````).
+ * the path to the configuration that should be utilised to process the data resources (this configuration can be found at [````tpu_configs/import-springer-journals-config.json````](https://github.com/slub/dswarm-springer-journals-mappings/blob/master/tpu_configs/import-springer-journals-config.json)).
 
 There is a TPU configuration template for running TPU tasks to process mappings from Springer Journals to
- * UBL Intermediate Format: ````tpu_configs/new_im_springer_articles-tpu.properties````
- * finc Solr schema: ````tpu_configs/springer_articles_tpu.properties````
+ * UBL Intermediate Format: [````tpu_configs/new_im_springer_articles-tpu.properties````](https://github.com/slub/dswarm-springer-journals-mappings/blob/master/tpu_configs/new_im_springer_articles-tpu.properties)
+ * finc Solr schema: [````tpu_configs/springer_articles_tpu.properties````](https://github.com/slub/dswarm-springer-journals-mappings/blob/master/tpu_configs/springer_articles_tpu.properties)
 
 ## Sample Data
 
 Sample data that is utilised to test the mappings in the d:swarm Back Office UI
 
- * ````sample_data/sample_records.xml````: 8 Springer Journals records processed with [xem](https://github.com/dswarm/xml-elements-masker) and the content/sub trees of the masked XML elements is escaped (i.e. including inline markup elements); utilised for testing the mappings to the UBL Intermediate Format
- * ````sample_data/sample_records_2.xml````: 5 Springer Journal records processed with [xem](https://github.com/dswarm/xml-elements-masker) and only the content/text of the masked XML elements is contained (i.e. without inline markup elements); utilised for testing the mappings to the finc Solr schema
+ * [````sample_data/sample_records.xml````](https://github.com/slub/dswarm-springer-journals-mappings/blob/master/sample_data/sample_records.xml): 8 Springer Journals records processed with [xem](https://github.com/dswarm/xml-elements-masker) and the content/sub trees of the masked XML elements is escaped (i.e. including inline markup elements); utilised for testing the mappings to the UBL Intermediate Format
+ * [````sample_data/sample_records_2.xml````](https://github.com/slub/dswarm-springer-journals-mappings/blob/master/sample_data/sample_records_2.xml): 5 Springer Journal records processed with [xem](https://github.com/dswarm/xml-elements-masker) and only the content/text of the masked XML elements is contained (i.e. without inline markup elements); utilised for testing the mappings to the finc Solr schema
 
 ## Projects and Data Models Content
 
