@@ -209,9 +209,9 @@
             "parameters" : [ "delimiter", "prefix", "postfix" ]
           },
           "input_components" : [ {
-            "uuid" : "bc2cf3df-dd3c-65c8-37ce-753627658637"
-          }, {
             "uuid" : "7023e40b-3314-b2c9-4cf9-145c7ab62733"
+          }, {
+            "uuid" : "bc2cf3df-dd3c-65c8-37ce-753627658637"
           } ],
           "output_components" : [ {
             "uuid" : "4b876ee9-f97a-6ded-ea50-a8441d669932"
