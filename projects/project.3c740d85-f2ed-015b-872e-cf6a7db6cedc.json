@@ -355,16 +355,25 @@
               "name" : "base64",
               "dsl" : "metafacture",
               "reference" : "base64",
-              "description" : "Base64 hashing."
+              "description" : "Base64 hashing.",
+              "parameters" : {
+                "encoderType" : {
+                  "type" : "radio",
+                  "choices" : [ "DEFAULT_ENCODER", "URL_ENCODER" ],
+                  "optional" : true,
+                  "description" : "to specify the concrete base64 encoder that should be utilised; you can choose between DEFAULT_ENCODER and an URL conform base64 encoder variant (URL_ENCODER; without padding); default is DEFAULT_ENCODER"
+                }
+              }
             },
-            "parameters" : null
+            "parameters" : [ "encoderType" ]
           },
           "input_components" : null,
           "output_components" : [ {
             "uuid" : "494c7730-c479-7c8e-9aa9-791261bbd495"
           } ],
           "parameter_mappings" : {
-            "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__bb1a8986-c2fd-30e8-d873-e608f5f99a64"
+            "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__bb1a8986-c2fd-30e8-d873-e608f5f99a64",
+            "encoderType" : "URL_ENCODER"
           }
         } ],
         "function_description" : null,
@@ -591,9 +600,17 @@
       "name" : "base64",
       "dsl" : "metafacture",
       "reference" : "base64",
-      "description" : "Base64 hashing."
+      "description" : "Base64 hashing.",
+      "parameters" : {
+        "encoderType" : {
+          "type" : "radio",
+          "choices" : [ "DEFAULT_ENCODER", "URL_ENCODER" ],
+          "optional" : true,
+          "description" : "to specify the concrete base64 encoder that should be utilised; you can choose between DEFAULT_ENCODER and an URL conform base64 encoder variant (URL_ENCODER; without padding); default is DEFAULT_ENCODER"
+        }
+      }
     },
-    "parameters" : null
+    "parameters" : [ "encoderType" ]
   }, {
     "type" : "Function",
     "uuid" : "Function-7c4e285d-6ea6-49ad-84fa-f58fcc4c3067",
