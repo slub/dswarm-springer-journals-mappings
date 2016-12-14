@@ -1454,7 +1454,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__be5da7e2-70e7-f134-c4a8-821ab0cd96be",
-            "value" : "Article E-Article"
+            "value" : "Article, E-Article"
           }
         } ],
         "function_description" : null,
