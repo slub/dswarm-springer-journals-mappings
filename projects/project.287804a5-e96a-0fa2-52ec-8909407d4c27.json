@@ -838,7 +838,8 @@
             "uuid" : "281ffdc5-b9d6-3157-9d81-808ac30c97c8"
           } ],
           "parameter_mappings" : {
-            "inputString" : "component3f4f0df5-89df-99fc-0940-dd62c04d95cf"
+            "inputString" : "component3f4f0df5-89df-99fc-0940-dd62c04d95cf",
+            "encoderType" : "URL_ENCODER"
           }
         } ],
         "function_description" : null,
