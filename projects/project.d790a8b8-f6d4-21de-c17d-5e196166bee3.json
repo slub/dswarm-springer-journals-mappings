@@ -15,41 +15,6 @@
         "name" : "transformation",
         "description" : "transformation",
         "components" : [ {
-          "uuid" : "977a4e70-5a36-59d3-77cd-b66e93ec1e5b",
-          "name" : "componentb2fd2e4f-efff-cbc5-44d9-8444f397b359",
-          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_GivenName_value__56e7ef30-2eaf-b9e2-23a6-9df2be01bf98\",\"y\":1}",
-          "function" : {
-            "type" : "Function",
-            "uuid" : "Function-36fc0b67-1daa-41c6-bb36-0ce3d826e5e8",
-            "name" : "occurrence",
-            "description" : "Filter by number of occurrence.",
-            "function_description" : {
-              "name" : "occurrence",
-              "dsl" : "metafacture",
-              "reference" : "occurrence",
-              "description" : "Filter by number of occurrence.",
-              "parameters" : {
-                "only" : {
-                  "type" : "text",
-                  "pattern" : "(lessThen |moreThen )?\\d+"
-                },
-                "sameEntity" : {
-                  "type" : "checkbox",
-                  "optional" : true
-                }
-              }
-            },
-            "parameters" : [ "only", "sameEntity" ]
-          },
-          "input_components" : [ {
-            "uuid" : "24cc71a2-7dd2-a700-265e-0451b415c189"
-          } ],
-          "output_components" : null,
-          "parameter_mappings" : {
-            "only" : "1",
-            "inputString" : "component7fe499b7-0fe2-0d13-68fc-8915559800ef"
-          }
-        }, {
           "uuid" : "24cc71a2-7dd2-a700-265e-0451b415c189",
           "name" : "component7fe499b7-0fe2-0d13-68fc-8915559800ef",
           "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_GivenName_value__56e7ef30-2eaf-b9e2-23a6-9df2be01bf98\",\"y\":0}",
@@ -81,9 +46,7 @@
             "parameters" : [ "delimiter", "prefix", "postfix" ]
           },
           "input_components" : null,
-          "output_components" : [ {
-            "uuid" : "977a4e70-5a36-59d3-77cd-b66e93ec1e5b"
-          } ],
+          "output_components" : null,
           "parameter_mappings" : {
             "delimiter" : " ",
             "inputString" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_GivenName_value__56e7ef30-2eaf-b9e2-23a6-9df2be01bf98"
@@ -178,41 +141,6 @@
         "name" : "transformation",
         "description" : "transformation",
         "components" : [ {
-          "uuid" : "ecfffec6-5b4c-d999-4cba-5a22bb5243ba",
-          "name" : "component7ee50290-ce16-77c7-f6f3-43fb04f0703a",
-          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__c97c7890-118e-ff85-57ce-3e3f6899935f\",\"y\":1}",
-          "function" : {
-            "type" : "Function",
-            "uuid" : "Function-36fc0b67-1daa-41c6-bb36-0ce3d826e5e8",
-            "name" : "occurrence",
-            "description" : "Filter by number of occurrence.",
-            "function_description" : {
-              "name" : "occurrence",
-              "dsl" : "metafacture",
-              "reference" : "occurrence",
-              "description" : "Filter by number of occurrence.",
-              "parameters" : {
-                "only" : {
-                  "type" : "text",
-                  "pattern" : "(lessThen |moreThen )?\\d+"
-                },
-                "sameEntity" : {
-                  "type" : "checkbox",
-                  "optional" : true
-                }
-              }
-            },
-            "parameters" : [ "only", "sameEntity" ]
-          },
-          "input_components" : [ {
-            "uuid" : "4cb1a699-7b60-8e54-a0ae-5db9017b2cc9"
-          } ],
-          "output_components" : null,
-          "parameter_mappings" : {
-            "only" : "1",
-            "inputString" : "componentf7c71a4b-e9c3-d73d-360e-9526513d4f04"
-          }
-        }, {
           "uuid" : "4cb1a699-7b60-8e54-a0ae-5db9017b2cc9",
           "name" : "componentf7c71a4b-e9c3-d73d-360e-9526513d4f04",
           "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__c97c7890-118e-ff85-57ce-3e3f6899935f\",\"y\":0}",
@@ -244,9 +172,7 @@
             "parameters" : [ "delimiter", "prefix", "postfix" ]
           },
           "input_components" : null,
-          "output_components" : [ {
-            "uuid" : "ecfffec6-5b4c-d999-4cba-5a22bb5243ba"
-          } ],
+          "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__c97c7890-118e-ff85-57ce-3e3f6899935f"
           }

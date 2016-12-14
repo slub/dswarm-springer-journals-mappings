@@ -459,6 +459,83 @@
         } ]
       }
     }
+  }, {
+    "uuid" : "9de7221e-452e-7b5b-983f-750d0827f206",
+    "name" : "constant_format",
+    "transformation" : {
+      "uuid" : "422d947b-3a65-d110-b3f2-4631dafc9afd",
+      "name" : "transformation",
+      "description" : "transformation",
+      "function" : {
+        "type" : "Transformation",
+        "uuid" : "9aeb5ba3-4b65-71d6-327b-5dcb22ae311e",
+        "name" : "transformation",
+        "description" : "transformation",
+        "components" : [ {
+          "uuid" : "c3127a49-f1dd-ea68-2dd1-50462d99bfd0",
+          "name" : "component78f61309-8d16-68b8-1d81-6129beeb9221",
+          "description" : "{\"x\":\"type__162e538f-8fb7-bd8a-8aff-03334e8c626c\",\"y\":0}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-8f5a6192-b8c2-4ba9-97b5-cef74912d1a7",
+            "name" : "constant",
+            "description" : "Sets literal value to a constant.",
+            "function_description" : {
+              "name" : "constant",
+              "dsl" : "metafacture",
+              "reference" : "constant",
+              "description" : "Sets literal value to a constant.",
+              "parameters" : {
+                "value" : {
+                  "type" : "text"
+                }
+              }
+            },
+            "parameters" : [ "value" ]
+          },
+          "input_components" : null,
+          "output_components" : null,
+          "parameter_mappings" : {
+            "inputString" : "type__162e538f-8fb7-bd8a-8aff-03334e8c626c",
+            "value" : "ElectronicArticle"
+          }
+        } ],
+        "function_description" : null,
+        "parameters" : null
+      },
+      "input_components" : null,
+      "output_components" : null,
+      "parameter_mappings" : {
+        "type__162e538f-8fb7-bd8a-8aff-03334e8c626c" : "type__162e538f-8fb7-bd8a-8aff-03334e8c626c",
+        "__TRANSFORMATION_OUTPUT_VARIABLE__829964dc-ee39-225d-affc-7270b5e5189c" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__829964dc-ee39-225d-affc-7270b5e5189c"
+      }
+    },
+    "input_attribute_paths" : [ {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "162e538f-8fb7-bd8a-8aff-03334e8c626c",
+      "name" : "type__162e538f-8fb7-bd8a-8aff-03334e8c626c",
+      "attribute_path" : {
+        "uuid" : "AttributePath-0f13ed14-7920-4832-ac67-5ceca147bd87",
+        "attributes" : [ {
+          "uuid" : "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+          "name" : "type",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        } ]
+      }
+    } ],
+    "output_attribute_path" : {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "829964dc-ee39-225d-affc-7270b5e5189c",
+      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__829964dc-ee39-225d-affc-7270b5e5189c",
+      "attribute_path" : {
+        "uuid" : "AttributePath-d4116fce-c550-42ec-94fa-6fd021f6fbc4",
+        "attributes" : [ {
+          "uuid" : "Attribute-da79650c-c8ef-4980-9e35-ab07c2487772",
+          "name" : "finc.format",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-d06726be-a8e2-412a-b5e7-76cba340108b/finc.format"
+        } ]
+      }
+    }
   } ],
   "functions" : [ {
     "type" : "Function",
@@ -528,6 +605,23 @@
       "description" : "Collects all received values and emits the most preferred one on record end."
     },
     "parameters" : null
+  }, {
+    "type" : "Function",
+    "uuid" : "Function-8f5a6192-b8c2-4ba9-97b5-cef74912d1a7",
+    "name" : "constant",
+    "description" : "Sets literal value to a constant.",
+    "function_description" : {
+      "name" : "constant",
+      "dsl" : "metafacture",
+      "reference" : "constant",
+      "description" : "Sets literal value to a constant.",
+      "parameters" : {
+        "value" : {
+          "type" : "text"
+        }
+      }
+    },
+    "parameters" : [ "value" ]
   }, {
     "type" : "Function",
     "uuid" : "Function-f04e38f1-730c-4f4f-b483-d874d4fd1578",
