@@ -3,6 +3,112 @@
   "name" : "new_im_springer_journals_identifier_rel",
   "description" : "new_im_springer_journals_identifier_rel",
   "mappings" : [ {
+    "uuid" : "4330f1d3-64c4-eaea-097d-cbbc86b09d1a",
+    "name" : "ArticleDOI_url",
+    "transformation" : {
+      "uuid" : "7e0dc957-beba-f2d9-5f75-a48b3ca941fd",
+      "name" : "transformation",
+      "description" : "transformation",
+      "function" : {
+        "type" : "Transformation",
+        "uuid" : "a8b57081-619f-1cc6-bf60-5981cc6b0ac6",
+        "name" : "transformation",
+        "description" : "transformation",
+        "components" : [ {
+          "uuid" : "dcff683e-b5fe-c76a-e9fe-6bb621cabd81",
+          "name" : "component0057dc39-cefe-d3ab-0159-40c9cee364ad",
+          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__8787deb9-2e47-1773-1783-008ef018cd83\",\"y\":0}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-81d714c9-2dc2-41a5-af19-d3b81ccb8a03",
+            "name" : "compose",
+            "description" : "Add pre- or postfix to a string.",
+            "function_description" : {
+              "name" : "compose",
+              "dsl" : "metafacture",
+              "reference" : "compose",
+              "description" : "Add pre- or postfix to a string.",
+              "parameters" : {
+                "prefix" : {
+                  "type" : "text",
+                  "optional" : true
+                },
+                "postfix" : {
+                  "type" : "text",
+                  "optional" : true
+                }
+              }
+            },
+            "parameters" : [ "prefix", "postfix" ]
+          },
+          "input_components" : null,
+          "output_components" : null,
+          "parameter_mappings" : {
+            "prefix" : "http://link.springer.com/article/",
+            "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__8787deb9-2e47-1773-1783-008ef018cd83"
+          }
+        } ],
+        "function_description" : null,
+        "parameters" : null
+      },
+      "input_components" : null,
+      "output_components" : null,
+      "parameter_mappings" : {
+        "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__8787deb9-2e47-1773-1783-008ef018cd83" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__8787deb9-2e47-1773-1783-008ef018cd83",
+        "__TRANSFORMATION_OUTPUT_VARIABLE__ca9f0d45-3f3b-1024-46e1-26b3e6638a08" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__ca9f0d45-3f3b-1024-46e1-26b3e6638a08"
+      }
+    },
+    "input_attribute_paths" : [ {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "8787deb9-2e47-1773-1783-008ef018cd83",
+      "name" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__8787deb9-2e47-1773-1783-008ef018cd83",
+      "attribute_path" : {
+        "uuid" : "AttributePath-c7b80dc9-a55c-4d51-8a46-a5a49d716b0e",
+        "attributes" : [ {
+          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
+          "name" : "Journal",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
+        }, {
+          "uuid" : "Attribute-2cdeb81f-c60d-4411-8abf-5a1256b936e0",
+          "name" : "Volume",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Volume"
+        }, {
+          "uuid" : "Attribute-23d98239-a272-465f-8198-174b404a605c",
+          "name" : "Issue",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Issue"
+        }, {
+          "uuid" : "Attribute-09bc3b43-969a-442b-aab5-05b4bb9ebd2d",
+          "name" : "Article",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Article"
+        }, {
+          "uuid" : "Attribute-93a74d61-a9fd-4df0-8185-c28b3fb5ea75",
+          "name" : "ArticleInfo",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/ArticleInfo"
+        }, {
+          "uuid" : "Attribute-305a5cee-1bf2-4651-8fcc-6c17577e199d",
+          "name" : "ArticleDOI",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/ArticleDOI"
+        }, {
+          "uuid" : "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+          "name" : "value",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        } ]
+      }
+    } ],
+    "output_attribute_path" : {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "ca9f0d45-3f3b-1024-46e1-26b3e6638a08",
+      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__ca9f0d45-3f3b-1024-46e1-26b3e6638a08",
+      "attribute_path" : {
+        "uuid" : "AttributePath-e2f98a25-c92f-4573-aa29-18340546e5e7",
+        "attributes" : [ {
+          "uuid" : "Attribute-94293668-8a14-47cc-a639-e334ed1dae8a",
+          "name" : "url",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-d06726be-a8e2-412a-b5e7-76cba340108b/url"
+        } ]
+      }
+    }
+  }, {
     "uuid" : "fd83e9aa-143f-2333-50c1-0279a0748ada",
     "name" : "doi",
     "input_attribute_paths" : [ {
@@ -260,48 +366,7 @@
       }
     }
   } ],
-  "functions" : [ {
-    "type" : "Function",
-    "uuid" : "Function-e8db2881-a577-44e1-8cb9-24a102aa2e6c",
-    "name" : "trim",
-    "description" : "Trims the value",
-    "function_description" : {
-      "name" : "trim",
-      "dsl" : "metafacture",
-      "reference" : "trim",
-      "description" : "Trims the value"
-    },
-    "parameters" : null
-  }, {
-    "type" : "Function",
-    "uuid" : "Function-eeea4d02-ad02-4540-b2b0-65253be68dac",
-    "name" : "issn",
-    "description" : "ISSN conversion and verification.",
-    "function_description" : {
-      "name" : "issn",
-      "dsl" : "metafacture",
-      "reference" : "issn",
-      "description" : "ISSN conversion and verification.",
-      "parameters" : {
-        "format" : {
-          "type" : "checkbox",
-          "optional" : true,
-          "description" : "Formats/normalizes the given ISSN with a hyphen after the 4th digit (+ upper-cases the last character)"
-        },
-        "check" : {
-          "type" : "checkbox",
-          "optional" : true,
-          "description" : "Check the given ISSN with help of the checksum character at the end of the ISSN (default = true)"
-        },
-        "errorString" : {
-          "type" : "text",
-          "optional" : true,
-          "description" : "rror string that should be written as value, if the input string is not a valid ISSN"
-        }
-      }
-    },
-    "parameters" : [ "format", "check", "errorString" ]
-  } ],
+  "functions" : [ ],
   "input_data_model" : {
     "uuid" : "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
     "name" : "Springer Journals sample records",
