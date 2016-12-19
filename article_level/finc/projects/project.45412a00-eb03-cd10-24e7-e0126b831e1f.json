@@ -82,7 +82,8 @@
             "uuid" : "3e95ab49-6deb-51bc-e70c-b621c8b3fc35"
           } ],
           "parameter_mappings" : {
-            "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__5a577300-5c30-d3c8-9a00-928d5a9d1d9b"
+            "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__5a577300-5c30-d3c8-9a00-928d5a9d1d9b",
+            "encoderType" : "URL_ENCODER"
           }
         }, {
           "uuid" : "8f7da555-e892-0195-ca0c-e88c8712eba0",
