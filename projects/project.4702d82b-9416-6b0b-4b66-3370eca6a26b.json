@@ -40,7 +40,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__7e3f83c2-0633-85d9-5a8e-7f0ef46bb923",
-            "value" : "Article E-Article"
+            "value" : "Article, E-Article"
           }
         } ],
         "function_description" : null,
@@ -141,7 +141,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__fb22c3c0-8165-8a7f-d344-31e638cf2a89",
-            "value" : "Article E-Article"
+            "value" : "Article, E-Article"
           }
         } ],
         "function_description" : null,
@@ -242,7 +242,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__df92e507-6a6d-e73d-d203-fb40fd4bdcda",
-            "value" : "Article E-Article"
+            "value" : "Article, E-Article"
           }
         } ],
         "function_description" : null,
@@ -747,7 +747,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__f8b76e95-75de-28c7-2c2b-adf27416016d",
-            "value" : "Article E-Article"
+            "value" : "Article, E-Article"
           }
         } ],
         "function_description" : null,
@@ -848,7 +848,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__a8676e38-eafd-31a8-051f-01337ac0c995",
-            "value" : "Article E-Article"
+            "value" : "Article, E-Article"
           }
         } ],
         "function_description" : null,
@@ -1050,7 +1050,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__727798e7-c3fc-4fcf-35be-dc2165584d9d",
-            "value" : "Article E-Article"
+            "value" : "Article, E-Article"
           }
         } ],
         "function_description" : null,
@@ -1353,7 +1353,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__29520d5c-85d1-8fc7-d16e-cb4d36e64d90",
-            "value" : "Article E-Article"
+            "value" : "Article, E-Article"
           }
         } ],
         "function_description" : null,
@@ -1555,7 +1555,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__5e3417dd-4ddb-d07b-29da-2da3a6657013",
-            "value" : "Article E-Article"
+            "value" : "Article, E-Article"
           }
         } ],
         "function_description" : null,
@@ -1656,7 +1656,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__4cc5e177-e5ec-71f7-823f-34b8b75c08dc",
-            "value" : "Article E-Article"
+            "value" : "Article, E-Article"
           }
         } ],
         "function_description" : null,
@@ -1757,7 +1757,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__b37ed75e-8ace-2115-64fd-aa64711e7440",
-            "value" : "Article E-Article"
+            "value" : "Article, E-Article"
           }
         } ],
         "function_description" : null,
