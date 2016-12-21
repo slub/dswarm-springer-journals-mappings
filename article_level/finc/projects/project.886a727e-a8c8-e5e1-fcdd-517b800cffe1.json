@@ -209,9 +209,9 @@
             "parameters" : [ "delimiter", "prefix", "postfix" ]
           },
           "input_components" : [ {
-            "uuid" : "bc2cf3df-dd3c-65c8-37ce-753627658637"
-          }, {
             "uuid" : "7023e40b-3314-b2c9-4cf9-145c7ab62733"
+          }, {
+            "uuid" : "bc2cf3df-dd3c-65c8-37ce-753627658637"
           } ],
           "output_components" : [ {
             "uuid" : "4b876ee9-f97a-6ded-ea50-a8441d669932"
@@ -488,9 +488,9 @@
             "parameters" : [ "delimiter", "prefix", "postfix" ]
           },
           "input_components" : [ {
-            "uuid" : "bb99d432-27a4-80a2-7666-3a2584240c32"
-          }, {
             "uuid" : "e772fcf2-8466-1601-234d-5dca8caf9745"
+          }, {
+            "uuid" : "bb99d432-27a4-80a2-7666-3a2584240c32"
           } ],
           "output_components" : [ {
             "uuid" : "7cbbc20e-0432-a7ba-6a83-4e78b225f239"
@@ -1107,9 +1107,9 @@
             "parameters" : [ "delimiter", "prefix", "postfix" ]
           },
           "input_components" : [ {
-            "uuid" : "23181daa-cdd2-a01e-269d-43efb101201f"
-          }, {
             "uuid" : "5a991c09-ae20-07a2-44c1-e377559be128"
+          }, {
+            "uuid" : "23181daa-cdd2-a01e-269d-43efb101201f"
           } ],
           "output_components" : null,
           "parameter_mappings" : {
@@ -1438,9 +1438,9 @@
             "parameters" : [ "delimiter", "prefix", "postfix" ]
           },
           "input_components" : [ {
-            "uuid" : "2f8a17eb-791c-38d0-d8f1-aa6080aee2f5"
-          }, {
             "uuid" : "71411181-c855-0150-4eb6-2b0fe42c379c"
+          }, {
+            "uuid" : "2f8a17eb-791c-38d0-d8f1-aa6080aee2f5"
           } ],
           "output_components" : [ {
             "uuid" : "d9e85c94-5b15-a6bd-fb71-561eb3d0fed4"

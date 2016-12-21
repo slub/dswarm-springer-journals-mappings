@@ -3,21 +3,21 @@
   "name" : "new_im_springer_journals_identifier_rel",
   "description" : "new_im_springer_journals_identifier_rel",
   "mappings" : [ {
-    "uuid" : "4330f1d3-64c4-eaea-097d-cbbc86b09d1a",
-    "name" : "ArticleDOI_url",
+    "uuid" : "29b0c9bb-6201-f267-a942-4952f48a10f3",
+    "name" : "url",
     "transformation" : {
-      "uuid" : "7e0dc957-beba-f2d9-5f75-a48b3ca941fd",
+      "uuid" : "a3d2e216-68d0-e231-70dd-68dc7b00c5aa",
       "name" : "transformation",
       "description" : "transformation",
       "function" : {
         "type" : "Transformation",
-        "uuid" : "a8b57081-619f-1cc6-bf60-5981cc6b0ac6",
+        "uuid" : "4c4f3f53-0286-1d9a-418a-9fbc4f19b76d",
         "name" : "transformation",
         "description" : "transformation",
         "components" : [ {
-          "uuid" : "dcff683e-b5fe-c76a-e9fe-6bb621cabd81",
-          "name" : "component0057dc39-cefe-d3ab-0159-40c9cee364ad",
-          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__8787deb9-2e47-1773-1783-008ef018cd83\",\"y\":0}",
+          "uuid" : "c0ba2b66-9168-4573-8397-7463f0ba2088",
+          "name" : "componentf5cdba3b-5942-5212-619c-1cd9f0f0aa67",
+          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__074c191d-7708-b1bb-f56a-bdc4a5396c76\",\"y\":0}",
           "function" : {
             "type" : "Function",
             "uuid" : "Function-81d714c9-2dc2-41a5-af19-d3b81ccb8a03",
@@ -45,7 +45,7 @@
           "output_components" : null,
           "parameter_mappings" : {
             "prefix" : "http://link.springer.com/article/",
-            "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__8787deb9-2e47-1773-1783-008ef018cd83"
+            "inputString" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__074c191d-7708-b1bb-f56a-bdc4a5396c76"
           }
         } ],
         "function_description" : null,
@@ -54,14 +54,14 @@
       "input_components" : null,
       "output_components" : null,
       "parameter_mappings" : {
-        "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__8787deb9-2e47-1773-1783-008ef018cd83" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__8787deb9-2e47-1773-1783-008ef018cd83",
-        "__TRANSFORMATION_OUTPUT_VARIABLE__ca9f0d45-3f3b-1024-46e1-26b3e6638a08" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__ca9f0d45-3f3b-1024-46e1-26b3e6638a08"
+        "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__074c191d-7708-b1bb-f56a-bdc4a5396c76" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__074c191d-7708-b1bb-f56a-bdc4a5396c76",
+        "__TRANSFORMATION_OUTPUT_VARIABLE__3303aa4c-46b7-1881-9f95-f674cf3d1675" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__3303aa4c-46b7-1881-9f95-f674cf3d1675"
       }
     },
     "input_attribute_paths" : [ {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "8787deb9-2e47-1773-1783-008ef018cd83",
-      "name" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__8787deb9-2e47-1773-1783-008ef018cd83",
+      "uuid" : "074c191d-7708-b1bb-f56a-bdc4a5396c76",
+      "name" : "Journal_Volume_Issue_Article_ArticleInfo_ArticleDOI_value__074c191d-7708-b1bb-f56a-bdc4a5396c76",
       "attribute_path" : {
         "uuid" : "AttributePath-c7b80dc9-a55c-4d51-8a46-a5a49d716b0e",
         "attributes" : [ {
@@ -97,8 +97,8 @@
     } ],
     "output_attribute_path" : {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "ca9f0d45-3f3b-1024-46e1-26b3e6638a08",
-      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__ca9f0d45-3f3b-1024-46e1-26b3e6638a08",
+      "uuid" : "3303aa4c-46b7-1881-9f95-f674cf3d1675",
+      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__3303aa4c-46b7-1881-9f95-f674cf3d1675",
       "attribute_path" : {
         "uuid" : "AttributePath-e2f98a25-c92f-4573-aa29-18340546e5e7",
         "attributes" : [ {

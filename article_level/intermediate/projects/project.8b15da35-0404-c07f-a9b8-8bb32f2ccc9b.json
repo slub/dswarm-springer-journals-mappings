@@ -3,21 +3,21 @@
   "name" : "new_im_springer_journals_publisher_rel",
   "description" : "new_im_springer_journals_publisher_rel",
   "mappings" : [ {
-    "uuid" : "635f306c-dd65-63ea-4de9-5810d890a24b",
-    "name" : "PublisherImprintName_rft.pub",
+    "uuid" : "27c08c2d-d2a4-3842-f755-42fc9b73f02a",
+    "name" : "rft.pub",
     "transformation" : {
-      "uuid" : "9c6d64fa-646e-c574-28bd-699337fe3b33",
+      "uuid" : "12c9593a-a841-df85-26d6-e3f660fcd78c",
       "name" : "transformation",
       "description" : "transformation",
       "function" : {
         "type" : "Transformation",
-        "uuid" : "41df83a2-8c59-f4c0-1389-734a6104f108",
+        "uuid" : "5e835f9c-ce83-562f-1854-b28eed0c0c1c",
         "name" : "transformation",
         "description" : "transformation",
         "components" : [ {
-          "uuid" : "38c46fca-fe2e-ff44-9343-7705f87c1f80",
-          "name" : "component6a2025d5-edda-d8c1-6db9-bf133bb5559d",
-          "description" : "{\"x\":\"PublisherInfo_PublisherImprintName_value__ebf69768-7446-578e-09e6-015106bbce8f\",\"y\":0}",
+          "uuid" : "f98c4e7d-6a55-75ab-b400-89f318f9e45f",
+          "name" : "componentcb552cde-7e67-e484-aa0c-00be51a94e9c",
+          "description" : "{\"x\":\"PublisherInfo_PublisherName_value__f6b2517d-b849-0eda-a3d4-0b61c54166cb\",\"y\":0}",
           "function" : {
             "type" : "Function",
             "uuid" : "Function-e8db2881-a577-44e1-8cb9-24a102aa2e6c",
@@ -34,7 +34,7 @@
           "input_components" : null,
           "output_components" : null,
           "parameter_mappings" : {
-            "inputString" : "PublisherInfo_PublisherImprintName_value__ebf69768-7446-578e-09e6-015106bbce8f"
+            "inputString" : "PublisherInfo_PublisherName_value__f6b2517d-b849-0eda-a3d4-0b61c54166cb"
           }
         } ],
         "function_description" : null,
@@ -43,24 +43,24 @@
       "input_components" : null,
       "output_components" : null,
       "parameter_mappings" : {
-        "PublisherInfo_PublisherImprintName_value__ebf69768-7446-578e-09e6-015106bbce8f" : "PublisherInfo_PublisherImprintName_value__ebf69768-7446-578e-09e6-015106bbce8f",
-        "__TRANSFORMATION_OUTPUT_VARIABLE__95e8c506-7bab-5cd7-877a-3f3fbc24fd7a" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__95e8c506-7bab-5cd7-877a-3f3fbc24fd7a"
+        "PublisherInfo_PublisherName_value__f6b2517d-b849-0eda-a3d4-0b61c54166cb" : "PublisherInfo_PublisherName_value__f6b2517d-b849-0eda-a3d4-0b61c54166cb",
+        "__TRANSFORMATION_OUTPUT_VARIABLE__5d417b23-65b8-a393-4204-4d6a837aa3bb" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__5d417b23-65b8-a393-4204-4d6a837aa3bb"
       }
     },
     "input_attribute_paths" : [ {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "ebf69768-7446-578e-09e6-015106bbce8f",
-      "name" : "PublisherInfo_PublisherImprintName_value__ebf69768-7446-578e-09e6-015106bbce8f",
+      "uuid" : "f6b2517d-b849-0eda-a3d4-0b61c54166cb",
+      "name" : "PublisherInfo_PublisherName_value__f6b2517d-b849-0eda-a3d4-0b61c54166cb",
       "attribute_path" : {
-        "uuid" : "AttributePath-475ea11f-ba45-4f97-804d-e547e00a48ad",
+        "uuid" : "AttributePath-613c3a58-1c3a-4620-9d93-60187bcecf47",
         "attributes" : [ {
           "uuid" : "Attribute-c8a10a71-24cf-471b-84a8-378de4842c1c",
           "name" : "PublisherInfo",
           "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/PublisherInfo"
         }, {
-          "uuid" : "Attribute-0f2f48df-2e46-4a28-9f4d-504dde15051a",
-          "name" : "PublisherImprintName",
-          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/PublisherImprintName"
+          "uuid" : "Attribute-0d369f65-ec5f-494d-ad4b-16fe226def8a",
+          "name" : "PublisherName",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/PublisherName"
         }, {
           "uuid" : "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
           "name" : "value",
@@ -70,8 +70,8 @@
     } ],
     "output_attribute_path" : {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "95e8c506-7bab-5cd7-877a-3f3fbc24fd7a",
-      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__95e8c506-7bab-5cd7-877a-3f3fbc24fd7a",
+      "uuid" : "5d417b23-65b8-a393-4204-4d6a837aa3bb",
+      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__5d417b23-65b8-a393-4204-4d6a837aa3bb",
       "attribute_path" : {
         "uuid" : "AttributePath-24ea3de5-d67d-46bd-8608-32ca5e3337db",
         "attributes" : [ {

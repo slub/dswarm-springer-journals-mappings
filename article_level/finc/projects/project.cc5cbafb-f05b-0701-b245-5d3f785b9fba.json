@@ -347,11 +347,11 @@
             "parameters" : [ "delimiter", "prefix", "postfix" ]
           },
           "input_components" : [ {
-            "uuid" : "f08f6875-dda2-6fa9-a6c5-896b64d1f1ce"
+            "uuid" : "f9fafa56-0b6d-9293-916f-323495018f46"
           }, {
             "uuid" : "f07f12e0-3e8b-414f-c7ef-14520c5071d1"
           }, {
-            "uuid" : "f9fafa56-0b6d-9293-916f-323495018f46"
+            "uuid" : "f08f6875-dda2-6fa9-a6c5-896b64d1f1ce"
           } ],
           "output_components" : null,
           "parameter_mappings" : {
