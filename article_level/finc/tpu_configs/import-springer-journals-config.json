@@ -1,0 +1,9 @@
+{
+    "name": "Springer Journals configuration",
+    "description": "Springer Journals configuration description",
+    "parameters": {
+        "storage_type": "springer-journals",
+        "record_tag": "Publisher"
+    }
+}
+
