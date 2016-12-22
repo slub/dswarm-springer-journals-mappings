@@ -3,11 +3,52 @@
   "name" : "im_springer_journals_jl_identifier_rel",
   "description" : "im_springer_journals_jl_identifier_rel",
   "mappings" : [ {
-    "uuid" : "54a4dd29-8046-a2e6-cb87-c374d80280b4",
+    "uuid" : "Mapping-378e094d-0324-4e91-bcde-2181103457e5",
+    "name" : "JournalElectronicISSN_rft.eissn",
+    "input_attribute_paths" : [ {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "MappingAttributePathInstance-dfcaac57-4175-4109-953e-5715c750a847",
+      "name" : "Journal_JournalInfo_JournalElectronicISSN_value__b9e387b1-f79f-8916-a767-25c643ce5b21",
+      "attribute_path" : {
+        "uuid" : "AttributePath-139c2194-da4a-45de-bccd-b53e443e437c",
+        "attributes" : [ {
+          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
+          "name" : "Journal",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
+        }, {
+          "uuid" : "Attribute-c75f74ef-ac62-45e8-8949-95ab19d0ea71",
+          "name" : "JournalInfo",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/JournalInfo"
+        }, {
+          "uuid" : "Attribute-7a35717d-7fbd-4d6d-94dc-00fea2172f9b",
+          "name" : "JournalElectronicISSN",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/JournalElectronicISSN"
+        }, {
+          "uuid" : "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+          "name" : "value",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        } ]
+      }
+    } ],
+    "output_attribute_path" : {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "243f3b85-a713-dffd-796e-6c4560a30d58",
+      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__243f3b85-a713-dffd-796e-6c4560a30d58",
+      "attribute_path" : {
+        "uuid" : "AttributePath-92bcb77e-1273-4c5b-86e3-701233768f3a",
+        "attributes" : [ {
+          "uuid" : "Attribute-202d365f-62e9-4bb6-bf52-623f8502e616",
+          "name" : "rft.eissn",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-d06726be-a8e2-412a-b5e7-76cba340108b/rft.eissn"
+        } ]
+      }
+    }
+  }, {
+    "uuid" : "Mapping-529a3b90-d8c5-4f28-b075-9410d20ed3dd",
     "name" : "JournalPrintISSN_rft.issn",
     "input_attribute_paths" : [ {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "d396c32a-c731-7a0b-414c-e81670c2ba9c",
+      "uuid" : "MappingAttributePathInstance-830b6dbc-0137-4ed2-bbda-e1243ef62df2",
       "name" : "Journal_JournalInfo_JournalPrintISSN_value__d396c32a-c731-7a0b-414c-e81670c2ba9c",
       "attribute_path" : {
         "uuid" : "AttributePath-56fbd095-1ba4-4e78-9b63-61b8a86bd94f",
@@ -44,19 +85,19 @@
       }
     }
   }, {
-    "uuid" : "aba44cf0-cc25-3689-73e4-93a6c2ba1413",
+    "uuid" : "Mapping-c9c4fadb-6355-45c2-81d1-f0dec5f8151a",
     "name" : "JournalID_url",
     "transformation" : {
-      "uuid" : "bab06eab-3a48-aa05-d30f-c5b345f70f8c",
+      "uuid" : "Component-a6a4a5aa-2f55-437c-a094-27edb2ab1f1f",
       "name" : "transformation",
       "description" : "transformation",
       "function" : {
         "type" : "Transformation",
-        "uuid" : "af9bbf24-1abc-d13a-c100-76d64552ab71",
+        "uuid" : "Transformation-f335d6a1-f07d-4f23-ae64-8a05bcfd63bf",
         "name" : "transformation",
         "description" : "transformation",
         "components" : [ {
-          "uuid" : "d6d21d6d-b605-f770-660e-61b442130bae",
+          "uuid" : "Component-1d7b7cdc-932c-4749-9e9c-082096d519ba",
           "name" : "component0788a633-55fa-9a69-c46b-0ab33068c30b",
           "description" : "{\"x\":\"Journal_JournalInfo_JournalID_value__86604c88-cdfd-51da-b2c8-b8da0976ff39\",\"y\":0}",
           "function" : {
@@ -101,7 +142,7 @@
     },
     "input_attribute_paths" : [ {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "86604c88-cdfd-51da-b2c8-b8da0976ff39",
+      "uuid" : "MappingAttributePathInstance-878b3a58-bca6-4848-92f4-67b96b9f3228",
       "name" : "Journal_JournalInfo_JournalID_value__86604c88-cdfd-51da-b2c8-b8da0976ff39",
       "attribute_path" : {
         "uuid" : "AttributePath-f9659a10-1d0c-4b62-b27b-ec985fca1ee5",
@@ -138,19 +179,19 @@
       }
     }
   }, {
-    "uuid" : "f7118cad-21ae-8cd6-47ce-eb48dff5aece",
+    "uuid" : "Mapping-31d37969-dd05-459c-9ee7-bd65d9547777",
     "name" : "doi",
     "transformation" : {
-      "uuid" : "22272bc9-a267-2d55-8153-4594c900dbab",
+      "uuid" : "Component-bcc3f947-4350-4409-b69b-60fa2ddad960",
       "name" : "transformation",
       "description" : "transformation",
       "function" : {
         "type" : "Transformation",
-        "uuid" : "58329e14-cc42-24dc-b43c-4a9b08c386b5",
+        "uuid" : "Transformation-77f9a1c2-1a02-4128-9898-117a09a4758d",
         "name" : "transformation",
         "description" : "transformation",
         "components" : [ {
-          "uuid" : "44af2128-1294-39ac-e2b6-e6000045b62b",
+          "uuid" : "Component-3d3da89b-61b7-4641-a76f-c0dce8a7771e",
           "name" : "componenta7e79962-c5a3-b362-b28e-062c1c853a92",
           "description" : "{\"x\":\"Journal_JournalInfo_JournalDOI_value__6239ae06-2894-7ce8-8ac8-339663f2e99a\",\"y\":0}",
           "function" : {
@@ -167,14 +208,14 @@
             "parameters" : null
           },
           "input_components" : [ {
-            "uuid" : "5c4032a2-cc77-5dfe-71c8-6b5dd0b21ded"
+            "uuid" : "Component-dfa00776-204d-4b1b-96be-889cd83cd968"
           } ],
           "output_components" : null,
           "parameter_mappings" : {
             "inputString" : "Journal_JournalInfo_JournalDOI_value__6239ae06-2894-7ce8-8ac8-339663f2e99a,component8de65434-8303-4020-8ca9-5c9693a7569c"
           }
         }, {
-          "uuid" : "5c4032a2-cc77-5dfe-71c8-6b5dd0b21ded",
+          "uuid" : "Component-dfa00776-204d-4b1b-96be-889cd83cd968",
           "name" : "component8de65434-8303-4020-8ca9-5c9693a7569c",
           "description" : "{\"x\":\"Journal_JournalInfo_JournalID_value__534de50a-6941-c6f1-6cdf-87a6d1da0e89\",\"y\":0}",
           "function" : {
@@ -206,7 +247,7 @@
           },
           "input_components" : null,
           "output_components" : [ {
-            "uuid" : "44af2128-1294-39ac-e2b6-e6000045b62b"
+            "uuid" : "Component-3d3da89b-61b7-4641-a76f-c0dce8a7771e"
           } ],
           "parameter_mappings" : {
             "delimiter" : ".",
@@ -228,7 +269,7 @@
     },
     "input_attribute_paths" : [ {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "6239ae06-2894-7ce8-8ac8-339663f2e99a",
+      "uuid" : "MappingAttributePathInstance-4df68ddc-cfed-4309-af9f-025c6367634a",
       "name" : "Journal_JournalInfo_JournalDOI_value__6239ae06-2894-7ce8-8ac8-339663f2e99a",
       "attribute_path" : {
         "uuid" : "AttributePath-272a3bd2-4972-40df-84a0-94a1ae305d31",
@@ -252,31 +293,7 @@
       }
     }, {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "c069b30e-f434-2b47-7c81-c76e9cf593da",
-      "name" : "Journal_JournalInfo_JournalElectronicISSN_value__c069b30e-f434-2b47-7c81-c76e9cf593da",
-      "attribute_path" : {
-        "uuid" : "AttributePath-139c2194-da4a-45de-bccd-b53e443e437c",
-        "attributes" : [ {
-          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
-          "name" : "Journal",
-          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
-        }, {
-          "uuid" : "Attribute-c75f74ef-ac62-45e8-8949-95ab19d0ea71",
-          "name" : "JournalInfo",
-          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/JournalInfo"
-        }, {
-          "uuid" : "Attribute-7a35717d-7fbd-4d6d-94dc-00fea2172f9b",
-          "name" : "JournalElectronicISSN",
-          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/JournalElectronicISSN"
-        }, {
-          "uuid" : "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
-          "name" : "value",
-          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
-        } ]
-      }
-    }, {
-      "type" : "MappingAttributePathInstance",
-      "uuid" : "534de50a-6941-c6f1-6cdf-87a6d1da0e89",
+      "uuid" : "MappingAttributePathInstance-a4ee03a5-a834-4369-8bd3-3b56a93e7cf7",
       "name" : "Journal_JournalInfo_JournalID_value__534de50a-6941-c6f1-6cdf-87a6d1da0e89",
       "attribute_path" : {
         "uuid" : "AttributePath-f9659a10-1d0c-4b62-b27b-ec985fca1ee5",
@@ -298,27 +315,10 @@
           "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
         } ]
       }
-    } ],
-    "output_attribute_path" : {
+    }, {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "33d0548a-e7aa-b381-0b6e-9e2c4cb11824",
-      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__33d0548a-e7aa-b381-0b6e-9e2c4cb11824",
-      "attribute_path" : {
-        "uuid" : "AttributePath-b21ef02c-9da6-429d-b705-d6044f9ad5dc",
-        "attributes" : [ {
-          "uuid" : "Attribute-3b54dbef-b14b-4f04-ad64-9bad07791e84",
-          "name" : "doi",
-          "uri" : "http://data.slub-dresden.de/schemas/Schema-d06726be-a8e2-412a-b5e7-76cba340108b/doi"
-        } ]
-      }
-    }
-  }, {
-    "uuid" : "a040b706-0e14-75ae-4dcc-8397750052b7",
-    "name" : "JournalElectronicISSN_rft.eissn",
-    "input_attribute_paths" : [ {
-      "type" : "MappingAttributePathInstance",
-      "uuid" : "b9e387b1-f79f-8916-a767-25c643ce5b21",
-      "name" : "Journal_JournalInfo_JournalElectronicISSN_value__b9e387b1-f79f-8916-a767-25c643ce5b21",
+      "uuid" : "MappingAttributePathInstance-c8a25e16-4fed-4c47-8746-9fd53882a9ca",
+      "name" : "Journal_JournalInfo_JournalElectronicISSN_value__c069b30e-f434-2b47-7c81-c76e9cf593da",
       "attribute_path" : {
         "uuid" : "AttributePath-139c2194-da4a-45de-bccd-b53e443e437c",
         "attributes" : [ {
@@ -342,29 +342,29 @@
     } ],
     "output_attribute_path" : {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "243f3b85-a713-dffd-796e-6c4560a30d58",
-      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__243f3b85-a713-dffd-796e-6c4560a30d58",
+      "uuid" : "33d0548a-e7aa-b381-0b6e-9e2c4cb11824",
+      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__33d0548a-e7aa-b381-0b6e-9e2c4cb11824",
       "attribute_path" : {
-        "uuid" : "AttributePath-92bcb77e-1273-4c5b-86e3-701233768f3a",
+        "uuid" : "AttributePath-b21ef02c-9da6-429d-b705-d6044f9ad5dc",
         "attributes" : [ {
-          "uuid" : "Attribute-202d365f-62e9-4bb6-bf52-623f8502e616",
-          "name" : "rft.eissn",
-          "uri" : "http://data.slub-dresden.de/schemas/Schema-d06726be-a8e2-412a-b5e7-76cba340108b/rft.eissn"
+          "uuid" : "Attribute-3b54dbef-b14b-4f04-ad64-9bad07791e84",
+          "name" : "doi",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-d06726be-a8e2-412a-b5e7-76cba340108b/doi"
         } ]
       }
     }
   } ],
   "functions" : [ ],
   "input_data_model" : {
-    "uuid" : "6adae2c4-027b-b438-ee58-bcabd9be34f4",
-    "name" : "mapping_example_springer_journals_config",
-    "description" : "mapping_example_springer_journals_config",
+    "uuid" : "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+    "name" : "Springer Journals sample records",
+    "description" : null,
     "configuration" : {
-      "uuid" : "7ab3e5fd-fac2-0ace-d367-a6db599de08f",
+      "uuid" : "fc9fda77-054e-4061-ecd3-ce83a88fcd1d",
       "name" : null,
       "description" : null,
       "resources" : [ {
-        "uuid" : "Resource-e55c6c54-800a-4a09-a9b4-fcce3f52f786"
+        "uuid" : "Resource-3880800f-0545-4ffb-a29d-cf4dadd8a68d"
       } ],
       "parameters" : {
         "storage_type" : "springer-journals",
@@ -39615,27 +39615,23 @@
     },
     "deprecated" : false,
     "data_resource" : {
-      "uuid" : "Resource-e55c6c54-800a-4a09-a9b4-fcce3f52f786",
-      "name" : "mapping_example_springer_journals",
-      "description" : "mapping_example_springer_journals",
-      "type" : "FILE",
+      "uuid" : "Resource-3880800f-0545-4ffb-a29d-cf4dadd8a68d",
+      "name" : null,
+      "description" : null,
+      "type" : null,
       "configurations" : [ {
-        "uuid" : "7ab3e5fd-fac2-0ace-d367-a6db599de08f",
+        "uuid" : "fc9fda77-054e-4061-ecd3-ce83a88fcd1d",
         "name" : null,
         "description" : null,
         "resources" : [ {
-          "uuid" : "Resource-e55c6c54-800a-4a09-a9b4-fcce3f52f786"
+          "uuid" : "Resource-3880800f-0545-4ffb-a29d-cf4dadd8a68d"
         } ],
         "parameters" : {
           "storage_type" : "springer-journals",
           "record_tag" : "Publisher"
         }
       } ],
-      "resource_attributes" : {
-        "path" : "/data/workspace/tmp/resources/dswarm_mapping_example_author_corp.xml",
-        "filesize" : -1,
-        "filetype" : "application/xml"
-      }
+      "resource_attributes" : null
     }
   },
   "output_data_model" : {
