@@ -819,7 +819,7 @@
           } ],
           "output_components" : null,
           "parameter_mappings" : {
-            "with" : "$1-0$2-$3",
+            "with" : "$1-0$2-$3T00:00:00Z",
             "pattern" : "(\\d{4})-(\\d)-(\\d{2})",
             "inputString" : "component1098a048-82ef-1cc8-f9d1-91d783dba936"
           }
@@ -1049,6 +1049,36 @@
       }
     },
     "parameters" : [ "to", "language" ]
+  }, {
+    "type" : "Function",
+    "uuid" : "Function-1e902d15-2421-4205-a406-1acde6bcb97a",
+    "name" : "dateformat",
+    "description" : "Format a date in a specific format. Note: language code needs to be lowercase.",
+    "function_description" : {
+      "name" : "dateformat",
+      "dsl" : "metafacture",
+      "reference" : "dateformat",
+      "description" : "Format a date in a specific format. Note: language code needs to be lowercase.",
+      "parameters" : {
+        "inputformat" : {
+          "type" : "text",
+          "optional" : true,
+          "description" : "Syntax corresponds to Java Date Format, default is dd.MM.yyyy"
+        },
+        "outputformat" : {
+          "type" : "select",
+          "choices" : [ "FULL", "LONG", "MEDIUM", "SHORT" ],
+          "optional" : true,
+          "description" : "Syntax corresponds to Java Date Format, default is LONG"
+        },
+        "language" : {
+          "type" : "text",
+          "optional" : true,
+          "description" : "2-letter language code (lowercase!)"
+        }
+      }
+    },
+    "parameters" : [ "inputformat", "outputformat", "language" ]
   }, {
     "type" : "Function",
     "uuid" : "Function-81d714c9-2dc2-41a5-af19-d3b81ccb8a03",
