@@ -40159,6 +40159,45 @@
           } ]
         },
         "sub_schema" : null
+      }, {
+        "type" : "SchemaAttributePathInstance",
+        "uuid" : "SchemaAttributePathInstance-8938365f-c89e-4ddc-a5fe-3357e58445f0",
+        "name" : null,
+        "attribute_path" : {
+          "uuid" : "AttributePath-1dd4dc14-9d4a-4756-8acc-836f594789d8",
+          "attributes" : [ {
+            "uuid" : "Attribute-98d99ded-d4e7-4ccc-b3dc-1da0e71b6fcf",
+            "name" : "x.date",
+            "uri" : "http://data.slub-dresden.de/schemas/Schema-d06726be-a8e2-412a-b5e7-76cba340108b/x.date"
+          } ]
+        },
+        "sub_schema" : null
+      }, {
+        "type" : "SchemaAttributePathInstance",
+        "uuid" : "SchemaAttributePathInstance-d3d101f7-bd51-4903-95e1-1a8f19a222a1",
+        "name" : null,
+        "attribute_path" : {
+          "uuid" : "AttributePath-6fa9202b-9961-47bb-a8a2-6fc7339a2303",
+          "attributes" : [ {
+            "uuid" : "Attribute-8a373adf-b66b-453e-ad5a-e91336c93302",
+            "name" : "AIAccessFacet",
+            "uri" : "http://data.slub-dresden.de/schemas/Schema-d06726be-a8e2-412a-b5e7-76cba340108b/AIAccessFacet"
+          } ]
+        },
+        "sub_schema" : null
+      }, {
+        "type" : "SchemaAttributePathInstance",
+        "uuid" : "SchemaAttributePathInstance-bcbb92ca-21cb-443d-bac9-a2f961fe613f",
+        "name" : null,
+        "attribute_path" : {
+          "uuid" : "AttributePath-e805b80e-96fb-4e98-95ef-e8b7ee74e6b4",
+          "attributes" : [ {
+            "uuid" : "Attribute-5d39f08a-ffec-4755-8130-a586ef3ec4bb",
+            "name" : "finc.AIRecordType",
+            "uri" : "http://data.slub-dresden.de/schemas/Schema-d06726be-a8e2-412a-b5e7-76cba340108b/finc.AIRecordType"
+          } ]
+        },
+        "sub_schema" : null
       } ],
       "record_class" : {
         "uuid" : "Clasz-8b6689b2-5106-483e-bc2c-79aa4f49b48d",
