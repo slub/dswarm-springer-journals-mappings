@@ -788,6 +788,41 @@
             "postfix" : "-01"
           }
         }, {
+          "uuid" : "e919e82c-8e54-5593-58c2-160117c0e9ee",
+          "name" : "component8cac5f87-1c62-4618-d0ef-c8cd1922ed89",
+          "description" : "{\"x\":\"Journal_Volume_Issue_IssueInfo_IssueHistory_CoverDate_Year_value__7bd48fa2-487d-705a-805b-25b09c800fad\",\"y\":3}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-81d714c9-2dc2-41a5-af19-d3b81ccb8a03",
+            "name" : "compose",
+            "description" : "Add pre- or postfix to a string.",
+            "function_description" : {
+              "name" : "compose",
+              "dsl" : "metafacture",
+              "reference" : "compose",
+              "description" : "Add pre- or postfix to a string.",
+              "parameters" : {
+                "prefix" : {
+                  "type" : "text",
+                  "optional" : true
+                },
+                "postfix" : {
+                  "type" : "text",
+                  "optional" : true
+                }
+              }
+            },
+            "parameters" : [ "prefix", "postfix" ]
+          },
+          "input_components" : [ {
+            "uuid" : "f4690c38-6f7e-5af7-765f-0b894a4f95f1"
+          } ],
+          "output_components" : null,
+          "parameter_mappings" : {
+            "inputString" : "componentc8dd8911-120a-6eee-6481-3ff26f93dddd",
+            "postfix" : "T00:00:00Z"
+          }
+        }, {
           "uuid" : "f4690c38-6f7e-5af7-765f-0b894a4f95f1",
           "name" : "componentc8dd8911-120a-6eee-6481-3ff26f93dddd",
           "description" : "{\"x\":\"Journal_Volume_Issue_IssueInfo_IssueHistory_CoverDate_Year_value__7bd48fa2-487d-705a-805b-25b09c800fad\",\"y\":2}",
@@ -817,7 +852,9 @@
           "input_components" : [ {
             "uuid" : "a0c3becf-9216-ef57-e962-f1c2735add82"
           } ],
-          "output_components" : null,
+          "output_components" : [ {
+            "uuid" : "e919e82c-8e54-5593-58c2-160117c0e9ee"
+          } ],
           "parameter_mappings" : {
             "with" : "$1-0$2-$3",
             "pattern" : "(\\d{4})-(\\d)-(\\d{2})",
