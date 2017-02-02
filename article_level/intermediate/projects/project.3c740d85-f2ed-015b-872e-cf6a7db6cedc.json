@@ -742,13 +742,15 @@
             },
             "parameters" : [ "delimiter", "prefix", "postfix" ]
           },
-          "input_components" : null,
+          "input_components" : [ {
+            "uuid" : "ba439626-24c1-4708-9bb5-5a8dbba02fc4"
+          } ],
           "output_components" : [ {
             "uuid" : "a0c3becf-9216-ef57-e962-f1c2735add82"
           } ],
           "parameter_mappings" : {
             "delimiter" : "-",
-            "inputString" : "Journal_Volume_Issue_IssueInfo_IssueHistory_CoverDate_Year_value__7bd48fa2-487d-705a-805b-25b09c800fad,Journal_Volume_Issue_IssueInfo_IssueHistory_CoverDate_Month_value__f3b16b85-ce18-ac26-d7af-d537e1a91f81"
+            "inputString" : "Journal_Volume_Issue_IssueInfo_IssueHistory_CoverDate_Year_value__7bd48fa2-487d-705a-805b-25b09c800fad,component65f70410-b55e-0c1e-c894-1bf49f128925"
           }
         }, {
           "uuid" : "a0c3becf-9216-ef57-e962-f1c2735add82",
@@ -780,52 +782,15 @@
           "input_components" : [ {
             "uuid" : "39a1ed30-81d3-eb84-ae23-4c91760fb24e"
           } ],
-          "output_components" : [ {
-            "uuid" : "f4690c38-6f7e-5af7-765f-0b894a4f95f1"
-          } ],
-          "parameter_mappings" : {
-            "inputString" : "componentce21e624-ba4f-767d-bd95-f13a671deb17",
-            "postfix" : "-01"
-          }
-        }, {
-          "uuid" : "e919e82c-8e54-5593-58c2-160117c0e9ee",
-          "name" : "component8cac5f87-1c62-4618-d0ef-c8cd1922ed89",
-          "description" : "{\"x\":\"Journal_Volume_Issue_IssueInfo_IssueHistory_CoverDate_Year_value__7bd48fa2-487d-705a-805b-25b09c800fad\",\"y\":3}",
-          "function" : {
-            "type" : "Function",
-            "uuid" : "Function-81d714c9-2dc2-41a5-af19-d3b81ccb8a03",
-            "name" : "compose",
-            "description" : "Add pre- or postfix to a string.",
-            "function_description" : {
-              "name" : "compose",
-              "dsl" : "metafacture",
-              "reference" : "compose",
-              "description" : "Add pre- or postfix to a string.",
-              "parameters" : {
-                "prefix" : {
-                  "type" : "text",
-                  "optional" : true
-                },
-                "postfix" : {
-                  "type" : "text",
-                  "optional" : true
-                }
-              }
-            },
-            "parameters" : [ "prefix", "postfix" ]
-          },
-          "input_components" : [ {
-            "uuid" : "f4690c38-6f7e-5af7-765f-0b894a4f95f1"
-          } ],
           "output_components" : null,
           "parameter_mappings" : {
-            "inputString" : "componentc8dd8911-120a-6eee-6481-3ff26f93dddd",
-            "postfix" : "T00:00:00Z"
+            "inputString" : "componentce21e624-ba4f-767d-bd95-f13a671deb17",
+            "postfix" : "-01T00:00:00Z"
           }
         }, {
-          "uuid" : "f4690c38-6f7e-5af7-765f-0b894a4f95f1",
-          "name" : "componentc8dd8911-120a-6eee-6481-3ff26f93dddd",
-          "description" : "{\"x\":\"Journal_Volume_Issue_IssueInfo_IssueHistory_CoverDate_Year_value__7bd48fa2-487d-705a-805b-25b09c800fad\",\"y\":2}",
+          "uuid" : "ba439626-24c1-4708-9bb5-5a8dbba02fc4",
+          "name" : "component65f70410-b55e-0c1e-c894-1bf49f128925",
+          "description" : "{\"x\":\"Journal_Volume_Issue_IssueInfo_IssueHistory_CoverDate_Month_value__f3b16b85-ce18-ac26-d7af-d537e1a91f81\",\"y\":2}",
           "function" : {
             "type" : "Function",
             "uuid" : "Function-9cd2510e-88bb-43c9-9b0b-ae3e398a46e7",
@@ -850,15 +815,89 @@
             "parameters" : [ "pattern", "with" ]
           },
           "input_components" : [ {
-            "uuid" : "a0c3becf-9216-ef57-e962-f1c2735add82"
+            "uuid" : "99015422-9329-5cf3-39af-aa7cee8e7877"
           } ],
           "output_components" : [ {
-            "uuid" : "e919e82c-8e54-5593-58c2-160117c0e9ee"
+            "uuid" : "39a1ed30-81d3-eb84-ae23-4c91760fb24e"
           } ],
           "parameter_mappings" : {
-            "with" : "$1-0$2-$3",
-            "pattern" : "(\\d{4})-(\\d)-(\\d{2})",
-            "inputString" : "component1098a048-82ef-1cc8-f9d1-91d783dba936"
+            "with" : "0$1",
+            "pattern" : "^(\\d)$",
+            "inputString" : "componente3ca5e0f-6d8f-d4d0-2d92-1d809e762111"
+          }
+        }, {
+          "uuid" : "99015422-9329-5cf3-39af-aa7cee8e7877",
+          "name" : "componente3ca5e0f-6d8f-d4d0-2d92-1d809e762111",
+          "description" : "{\"x\":\"Journal_Volume_Issue_IssueInfo_IssueHistory_CoverDate_Month_value__f3b16b85-ce18-ac26-d7af-d537e1a91f81\",\"y\":1}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-9cd2510e-88bb-43c9-9b0b-ae3e398a46e7",
+            "name" : "replace",
+            "description" : "String replace based on a regular expression. Pattern syntax corresponds to Java Regular Expressions.",
+            "function_description" : {
+              "name" : "replace",
+              "dsl" : "metafacture",
+              "reference" : "replace",
+              "description" : "String replace based on a regular expression. Pattern syntax corresponds to Java Regular Expressions.",
+              "parameters" : {
+                "pattern" : {
+                  "type" : "regexp"
+                },
+                "with" : {
+                  "type" : "text",
+                  "optional" : true,
+                  "description" : "The replacement"
+                }
+              }
+            },
+            "parameters" : [ "pattern", "with" ]
+          },
+          "input_components" : [ {
+            "uuid" : "a5e3e04b-fde3-154f-95a5-73f26456bb88"
+          } ],
+          "output_components" : [ {
+            "uuid" : "ba439626-24c1-4708-9bb5-5a8dbba02fc4"
+          } ],
+          "parameter_mappings" : {
+            "with" : "$1$2",
+            "pattern" : "^(\\d)(\\d)$",
+            "inputString" : "componentce0d02d9-7ea3-750f-7dce-8af7017d1806"
+          }
+        }, {
+          "uuid" : "a5e3e04b-fde3-154f-95a5-73f26456bb88",
+          "name" : "componentce0d02d9-7ea3-750f-7dce-8af7017d1806",
+          "description" : "{\"x\":\"Journal_Volume_Issue_IssueInfo_IssueHistory_CoverDate_Month_value__f3b16b85-ce18-ac26-d7af-d537e1a91f81\",\"y\":0}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-9cd2510e-88bb-43c9-9b0b-ae3e398a46e7",
+            "name" : "replace",
+            "description" : "String replace based on a regular expression. Pattern syntax corresponds to Java Regular Expressions.",
+            "function_description" : {
+              "name" : "replace",
+              "dsl" : "metafacture",
+              "reference" : "replace",
+              "description" : "String replace based on a regular expression. Pattern syntax corresponds to Java Regular Expressions.",
+              "parameters" : {
+                "pattern" : {
+                  "type" : "regexp"
+                },
+                "with" : {
+                  "type" : "text",
+                  "optional" : true,
+                  "description" : "The replacement"
+                }
+              }
+            },
+            "parameters" : [ "pattern", "with" ]
+          },
+          "input_components" : null,
+          "output_components" : [ {
+            "uuid" : "99015422-9329-5cf3-39af-aa7cee8e7877"
+          } ],
+          "parameter_mappings" : {
+            "with" : "$1$2",
+            "pattern" : "^\\d+(\\d)(\\d)$",
+            "inputString" : "Journal_Volume_Issue_IssueInfo_IssueHistory_CoverDate_Month_value__f3b16b85-ce18-ac26-d7af-d537e1a91f81"
           }
         } ],
         "function_description" : null,
