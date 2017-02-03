@@ -3,6 +3,343 @@
   "name" : "new_im_springer_journals_author_rel",
   "description" : "new_im_springer_journals_author_rel",
   "mappings" : [ {
+    "uuid" : "75795ab7-0b84-a94b-bf71-61bf4bb3d52b",
+    "name" : "rft.aulast",
+    "transformation" : {
+      "uuid" : "79e7ed44-7c3f-2422-82f6-30d9c1b4f7c7",
+      "name" : "transformation",
+      "description" : "transformation",
+      "function" : {
+        "type" : "Transformation",
+        "uuid" : "e1f09075-8fda-0719-4a88-0d43993d147b",
+        "name" : "transformation",
+        "description" : "transformation",
+        "components" : [ {
+          "uuid" : "23e3d5e5-a3eb-1229-76a9-1c4137b95b15",
+          "name" : "component27becdf1-d493-f1f5-7e0d-768bb4d4ffd6",
+          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__48ee44f2-df58-0f6a-00cc-6c775dbbfb9c\",\"y\":0}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-8f5a6192-b8c2-4ba9-97b5-cef74912d1a7",
+            "name" : "constant",
+            "description" : "Sets literal value to a constant.",
+            "function_description" : {
+              "name" : "constant",
+              "dsl" : "metafacture",
+              "reference" : "constant",
+              "description" : "Sets literal value to a constant.",
+              "parameters" : {
+                "value" : {
+                  "type" : "text"
+                }
+              }
+            },
+            "parameters" : [ "value" ]
+          },
+          "input_components" : null,
+          "output_components" : [ {
+            "uuid" : "792e2381-477a-4091-2b5e-90928e029e06"
+          } ],
+          "parameter_mappings" : {
+            "inputString" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__48ee44f2-df58-0f6a-00cc-6c775dbbfb9c",
+            "value" : "noGN"
+          }
+        }, {
+          "uuid" : "792e2381-477a-4091-2b5e-90928e029e06",
+          "name" : "componentb083d310-5b52-7e43-0093-9d789b93b696",
+          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__48ee44f2-df58-0f6a-00cc-6c775dbbfb9c\",\"y\":1}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-18516f9d-7905-4cd7-8f31-ccfa018f1036",
+            "name" : "multi-collect",
+            "description" : "Collects all received values and concatenates them on record end.",
+            "function_description" : {
+              "name" : "multi-collect",
+              "dsl" : "dswarm",
+              "reference" : "multi-collect",
+              "description" : "Collects all received values and concatenates them on record end.",
+              "parameters" : {
+                "delimiter" : {
+                  "type" : "text",
+                  "optional" : true
+                },
+                "prefix" : {
+                  "type" : "text",
+                  "optional" : true
+                },
+                "postfix" : {
+                  "type" : "text",
+                  "optional" : true
+                }
+              }
+            },
+            "parameters" : [ "delimiter", "prefix", "postfix" ]
+          },
+          "input_components" : [ {
+            "uuid" : "23e3d5e5-a3eb-1229-76a9-1c4137b95b15"
+          } ],
+          "output_components" : [ {
+            "uuid" : "a020b480-0814-566e-231f-a20383d994c5"
+          } ],
+          "parameter_mappings" : {
+            "delimiter" : "#",
+            "inputString" : "component27becdf1-d493-f1f5-7e0d-768bb4d4ffd6,Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__cd033cc9-ebd0-5e13-ea86-bcc80c582b26"
+          }
+        }, {
+          "uuid" : "a020b480-0814-566e-231f-a20383d994c5",
+          "name" : "componente92865c3-f003-a324-6834-eb62d3c8c03a",
+          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__48ee44f2-df58-0f6a-00cc-6c775dbbfb9c\",\"y\":2}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-57b89fd3-ee03-4c21-9026-bab8fcfe86eb",
+            "name" : "blacklist",
+            "description" : "Blacklist filter",
+            "function_description" : {
+              "name" : "blacklist",
+              "dsl" : "metafacture",
+              "reference" : "blacklist",
+              "description" : "Blacklist filter",
+              "parameters" : {
+                "lookupString" : {
+                  "type" : "lookuplist"
+                }
+              }
+            },
+            "parameters" : [ "lookupString" ]
+          },
+          "input_components" : [ {
+            "uuid" : "792e2381-477a-4091-2b5e-90928e029e06"
+          } ],
+          "output_components" : null,
+          "parameter_mappings" : {
+            "lookupString" : "[\"noGN#red\"]",
+            "inputString" : "componentb083d310-5b52-7e43-0093-9d789b93b696"
+          }
+        } ],
+        "function_description" : null,
+        "parameters" : null
+      },
+      "input_components" : null,
+      "output_components" : null,
+      "parameter_mappings" : {
+        "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__48ee44f2-df58-0f6a-00cc-6c775dbbfb9c" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__48ee44f2-df58-0f6a-00cc-6c775dbbfb9c",
+        "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__cd033cc9-ebd0-5e13-ea86-bcc80c582b26" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__cd033cc9-ebd0-5e13-ea86-bcc80c582b26",
+        "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__6c39f1fb-e605-18dd-b570-7753e29e5ef2" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__6c39f1fb-e605-18dd-b570-7753e29e5ef2",
+        "__TRANSFORMATION_OUTPUT_VARIABLE__859225aa-1e9a-8d84-c67a-b31288515b49" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__859225aa-1e9a-8d84-c67a-b31288515b49",
+        "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__72353962-88c5-14e2-f47e-07f35dae8af7" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__72353962-88c5-14e2-f47e-07f35dae8af7"
+      }
+    },
+    "input_attribute_paths" : [ {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "72353962-88c5-14e2-f47e-07f35dae8af7",
+      "name" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__72353962-88c5-14e2-f47e-07f35dae8af7",
+      "attribute_path" : {
+        "uuid" : "AttributePath-5335f929-59b9-4bf0-9da5-6ee61aa171b4",
+        "attributes" : [ {
+          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
+          "name" : "Journal",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
+        }, {
+          "uuid" : "Attribute-2cdeb81f-c60d-4411-8abf-5a1256b936e0",
+          "name" : "Volume",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Volume"
+        }, {
+          "uuid" : "Attribute-23d98239-a272-465f-8198-174b404a605c",
+          "name" : "Issue",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Issue"
+        }, {
+          "uuid" : "Attribute-09bc3b43-969a-442b-aab5-05b4bb9ebd2d",
+          "name" : "Article",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Article"
+        }, {
+          "uuid" : "Attribute-6a785e9f-b712-4200-a3f3-10bf2b183373",
+          "name" : "ArticleHeader",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/ArticleHeader"
+        }, {
+          "uuid" : "Attribute-468261e5-35b9-4932-aa1c-55841ff37168",
+          "name" : "AuthorGroup",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/AuthorGroup"
+        }, {
+          "uuid" : "Attribute-48ff3d21-7f36-4760-abfb-f7922ad98cf5",
+          "name" : "Author",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Author"
+        }, {
+          "uuid" : "Attribute-b267b8e3-941c-4d87-8990-b86dcab4d112",
+          "name" : "AuthorName",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/AuthorName"
+        }, {
+          "uuid" : "Attribute-0f24edb1-9f6a-4b55-b2d1-8c277a0676da",
+          "name" : "FamilyName",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/FamilyName"
+        }, {
+          "uuid" : "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+          "name" : "value",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        } ]
+      }
+    }, {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "6c39f1fb-e605-18dd-b570-7753e29e5ef2",
+      "name" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__6c39f1fb-e605-18dd-b570-7753e29e5ef2",
+      "attribute_path" : {
+        "uuid" : "AttributePath-e3edbaaf-e200-47f2-a2ef-965016e1b928",
+        "attributes" : [ {
+          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
+          "name" : "Journal",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
+        }, {
+          "uuid" : "Attribute-2cdeb81f-c60d-4411-8abf-5a1256b936e0",
+          "name" : "Volume",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Volume"
+        }, {
+          "uuid" : "Attribute-23d98239-a272-465f-8198-174b404a605c",
+          "name" : "Issue",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Issue"
+        }, {
+          "uuid" : "Attribute-09bc3b43-969a-442b-aab5-05b4bb9ebd2d",
+          "name" : "Article",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Article"
+        }, {
+          "uuid" : "Attribute-6a785e9f-b712-4200-a3f3-10bf2b183373",
+          "name" : "ArticleHeader",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/ArticleHeader"
+        }, {
+          "uuid" : "Attribute-468261e5-35b9-4932-aa1c-55841ff37168",
+          "name" : "AuthorGroup",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/AuthorGroup"
+        }, {
+          "uuid" : "Attribute-48ff3d21-7f36-4760-abfb-f7922ad98cf5",
+          "name" : "Author",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Author"
+        }, {
+          "uuid" : "Attribute-b267b8e3-941c-4d87-8990-b86dcab4d112",
+          "name" : "AuthorName",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/AuthorName"
+        }, {
+          "uuid" : "Attribute-a20f5259-186a-43bf-af9f-31654ce51362",
+          "name" : "NoGivenName",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/NoGivenName"
+        }, {
+          "uuid" : "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+          "name" : "type",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        } ]
+      }
+    }, {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "48ee44f2-df58-0f6a-00cc-6c775dbbfb9c",
+      "name" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__48ee44f2-df58-0f6a-00cc-6c775dbbfb9c",
+      "attribute_path" : {
+        "uuid" : "AttributePath-e3edbaaf-e200-47f2-a2ef-965016e1b928",
+        "attributes" : [ {
+          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
+          "name" : "Journal",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
+        }, {
+          "uuid" : "Attribute-2cdeb81f-c60d-4411-8abf-5a1256b936e0",
+          "name" : "Volume",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Volume"
+        }, {
+          "uuid" : "Attribute-23d98239-a272-465f-8198-174b404a605c",
+          "name" : "Issue",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Issue"
+        }, {
+          "uuid" : "Attribute-09bc3b43-969a-442b-aab5-05b4bb9ebd2d",
+          "name" : "Article",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Article"
+        }, {
+          "uuid" : "Attribute-6a785e9f-b712-4200-a3f3-10bf2b183373",
+          "name" : "ArticleHeader",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/ArticleHeader"
+        }, {
+          "uuid" : "Attribute-468261e5-35b9-4932-aa1c-55841ff37168",
+          "name" : "AuthorGroup",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/AuthorGroup"
+        }, {
+          "uuid" : "Attribute-48ff3d21-7f36-4760-abfb-f7922ad98cf5",
+          "name" : "Author",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Author"
+        }, {
+          "uuid" : "Attribute-b267b8e3-941c-4d87-8990-b86dcab4d112",
+          "name" : "AuthorName",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/AuthorName"
+        }, {
+          "uuid" : "Attribute-a20f5259-186a-43bf-af9f-31654ce51362",
+          "name" : "NoGivenName",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/NoGivenName"
+        }, {
+          "uuid" : "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+          "name" : "type",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        } ]
+      }
+    }, {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "cd033cc9-ebd0-5e13-ea86-bcc80c582b26",
+      "name" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__cd033cc9-ebd0-5e13-ea86-bcc80c582b26",
+      "attribute_path" : {
+        "uuid" : "AttributePath-5335f929-59b9-4bf0-9da5-6ee61aa171b4",
+        "attributes" : [ {
+          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
+          "name" : "Journal",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
+        }, {
+          "uuid" : "Attribute-2cdeb81f-c60d-4411-8abf-5a1256b936e0",
+          "name" : "Volume",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Volume"
+        }, {
+          "uuid" : "Attribute-23d98239-a272-465f-8198-174b404a605c",
+          "name" : "Issue",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Issue"
+        }, {
+          "uuid" : "Attribute-09bc3b43-969a-442b-aab5-05b4bb9ebd2d",
+          "name" : "Article",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Article"
+        }, {
+          "uuid" : "Attribute-6a785e9f-b712-4200-a3f3-10bf2b183373",
+          "name" : "ArticleHeader",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/ArticleHeader"
+        }, {
+          "uuid" : "Attribute-468261e5-35b9-4932-aa1c-55841ff37168",
+          "name" : "AuthorGroup",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/AuthorGroup"
+        }, {
+          "uuid" : "Attribute-48ff3d21-7f36-4760-abfb-f7922ad98cf5",
+          "name" : "Author",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Author"
+        }, {
+          "uuid" : "Attribute-b267b8e3-941c-4d87-8990-b86dcab4d112",
+          "name" : "AuthorName",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/AuthorName"
+        }, {
+          "uuid" : "Attribute-0f24edb1-9f6a-4b55-b2d1-8c277a0676da",
+          "name" : "FamilyName",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/FamilyName"
+        }, {
+          "uuid" : "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+          "name" : "value",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        } ]
+      }
+    } ],
+    "output_attribute_path" : {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "859225aa-1e9a-8d84-c67a-b31288515b49",
+      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__859225aa-1e9a-8d84-c67a-b31288515b49",
+      "attribute_path" : {
+        "uuid" : "AttributePath-b1bdf0c7-9d0a-4e82-a2d6-3a5f2fb46bb5",
+        "attributes" : [ {
+          "uuid" : "Attribute-0d39a49a-aa2e-4cdb-9cf8-184c31734717",
+          "name" : "authors",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-d06726be-a8e2-412a-b5e7-76cba340108b/authors"
+        }, {
+          "uuid" : "Attribute-0cafd555-463e-47af-9513-0fd9d59ee3df",
+          "name" : "rft.aulast",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-d06726be-a8e2-412a-b5e7-76cba340108b/rft.aulast"
+        } ]
+      }
+    }
+  }, {
     "uuid" : "d8c1e48d-934f-41ef-822b-52dc34a5b8c2",
     "name" : "rft.aufirst",
     "transformation" : {
@@ -129,52 +466,109 @@
       }
     }
   }, {
-    "uuid" : "8576e5a2-bcfd-719d-4eaa-265fce519476",
-    "name" : "rft.aulast",
+    "uuid" : "b3841dc5-e947-bbf2-c3dd-3fdbff1ebdc2",
+    "name" : "JournalTitle_rft.aulast",
     "transformation" : {
-      "uuid" : "e053514c-d54b-7295-172b-5b9cb64dfd3d",
+      "uuid" : "1a0192d8-c039-2d29-d274-353d6b7743f4",
       "name" : "transformation",
       "description" : "transformation",
       "function" : {
         "type" : "Transformation",
-        "uuid" : "2c93278e-34f9-fc91-1ff0-f6d388c55119",
+        "uuid" : "6b30f773-a3e7-c4a1-281a-b896b0345abe",
         "name" : "transformation",
         "description" : "transformation",
         "components" : [ {
-          "uuid" : "4cb1a699-7b60-8e54-a0ae-5db9017b2cc9",
-          "name" : "componentf7c71a4b-e9c3-d73d-360e-9526513d4f04",
-          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__c97c7890-118e-ff85-57ce-3e3f6899935f\",\"y\":0}",
+          "uuid" : "a33283ae-5799-118e-844f-e0e4f92e83bf",
+          "name" : "component8bbbe271-525a-7df7-adc7-4c84be32c2b7",
+          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__72353962-88c5-14e2-f47e-07f35dae8af7\",\"y\":1}",
           "function" : {
             "type" : "Function",
-            "uuid" : "Function-405d9b90-b6fd-45e6-b00d-17e96dc32b2c",
-            "name" : "collect",
-            "description" : "Collects all received values and concatenates them on record end. Useful for values of a field that occurs multiple times in a record.",
+            "uuid" : "Function-92855c36-59c4-4b09-a4c8-5a0fb56fa3d9",
+            "name" : "combine",
+            "description" : "Collects all received values and combine them. This function does only emit values, when all sources emit something.",
             "function_description" : {
-              "name" : "collect",
-              "dsl" : "dswarm",
-              "reference" : "collect",
-              "description" : "Collects all received values and concatenates them on record end. Useful for values of a field that occurs multiple times in a record.",
+              "name" : "combine",
+              "dsl" : "metafacture",
+              "reference" : "concat",
+              "description" : "Collects all received values and combine them. This function does only emit values, when all sources emit something.",
               "parameters" : {
-                "delimiter" : {
-                  "type" : "text",
-                  "optional" : true
-                },
-                "prefix" : {
-                  "type" : "text",
-                  "optional" : true
-                },
-                "postfix" : {
+                "value" : {
                   "type" : "text",
                   "optional" : true
                 }
               }
             },
-            "parameters" : [ "delimiter", "prefix", "postfix" ]
+            "parameters" : [ "value" ]
           },
-          "input_components" : null,
+          "input_components" : [ {
+            "uuid" : "31215657-014d-d82f-59b2-0bc5731f4873"
+          }, {
+            "uuid" : "410fcc7c-9e23-599e-35c6-594f8a4ddc6d"
+          } ],
           "output_components" : null,
           "parameter_mappings" : {
-            "inputString" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__c97c7890-118e-ff85-57ce-3e3f6899935f"
+            "inputString" : "componentdf3ab9cb-d8a2-0a81-4cd2-3b925b1dda75,component4a811055-1125-f9c5-ed5f-54d5dc8268fd,Journal_JournalInfo_JournalTitle_value__57bc4272-dc26-09c4-9705-7b682f41b69a",
+            "value" : "${Journal_JournalInfo_JournalTitle_value__57bc4272-dc26-09c4-9705-7b682f41b69a}"
+          }
+        }, {
+          "uuid" : "31215657-014d-d82f-59b2-0bc5731f4873",
+          "name" : "componentdf3ab9cb-d8a2-0a81-4cd2-3b925b1dda75",
+          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__72353962-88c5-14e2-f47e-07f35dae8af7\",\"y\":0}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-2f9c968f-3478-4f23-b64e-2313f86e11de",
+            "name" : "whitelist",
+            "description" : "Whitelist filter.",
+            "function_description" : {
+              "name" : "whitelist",
+              "dsl" : "metafacture",
+              "reference" : "whitelist",
+              "description" : "Whitelist filter.",
+              "parameters" : {
+                "lookupString" : {
+                  "type" : "lookuplist"
+                }
+              }
+            },
+            "parameters" : [ "lookupString" ]
+          },
+          "input_components" : null,
+          "output_components" : [ {
+            "uuid" : "a33283ae-5799-118e-844f-e0e4f92e83bf"
+          } ],
+          "parameter_mappings" : {
+            "lookupString" : "[\"red\"]",
+            "inputString" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__72353962-88c5-14e2-f47e-07f35dae8af7"
+          }
+        }, {
+          "uuid" : "410fcc7c-9e23-599e-35c6-594f8a4ddc6d",
+          "name" : "component4a811055-1125-f9c5-ed5f-54d5dc8268fd",
+          "description" : "{\"x\":\"Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__6c39f1fb-e605-18dd-b570-7753e29e5ef2\",\"y\":0}",
+          "function" : {
+            "type" : "Function",
+            "uuid" : "Function-8f5a6192-b8c2-4ba9-97b5-cef74912d1a7",
+            "name" : "constant",
+            "description" : "Sets literal value to a constant.",
+            "function_description" : {
+              "name" : "constant",
+              "dsl" : "metafacture",
+              "reference" : "constant",
+              "description" : "Sets literal value to a constant.",
+              "parameters" : {
+                "value" : {
+                  "type" : "text"
+                }
+              }
+            },
+            "parameters" : [ "value" ]
+          },
+          "input_components" : null,
+          "output_components" : [ {
+            "uuid" : "a33283ae-5799-118e-844f-e0e4f92e83bf"
+          } ],
+          "parameter_mappings" : {
+            "inputString" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__6c39f1fb-e605-18dd-b570-7753e29e5ef2",
+            "value" : "noGN"
           }
         } ],
         "function_description" : null,
@@ -183,14 +577,16 @@
       "input_components" : null,
       "output_components" : null,
       "parameter_mappings" : {
-        "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__c97c7890-118e-ff85-57ce-3e3f6899935f" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__c97c7890-118e-ff85-57ce-3e3f6899935f",
-        "__TRANSFORMATION_OUTPUT_VARIABLE__09c3972a-dd95-4625-dc0c-91d7d55123aa" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__09c3972a-dd95-4625-dc0c-91d7d55123aa"
+        "Journal_JournalInfo_JournalTitle_value__57bc4272-dc26-09c4-9705-7b682f41b69a" : "Journal_JournalInfo_JournalTitle_value__57bc4272-dc26-09c4-9705-7b682f41b69a",
+        "__TRANSFORMATION_OUTPUT_VARIABLE__81ecd73b-5455-4feb-94a8-53106dc37868" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__81ecd73b-5455-4feb-94a8-53106dc37868",
+        "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__6c39f1fb-e605-18dd-b570-7753e29e5ef2" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__6c39f1fb-e605-18dd-b570-7753e29e5ef2",
+        "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__72353962-88c5-14e2-f47e-07f35dae8af7" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__72353962-88c5-14e2-f47e-07f35dae8af7"
       }
     },
     "input_attribute_paths" : [ {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "c97c7890-118e-ff85-57ce-3e3f6899935f",
-      "name" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__c97c7890-118e-ff85-57ce-3e3f6899935f",
+      "uuid" : "72353962-88c5-14e2-f47e-07f35dae8af7",
+      "name" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_FamilyName_value__72353962-88c5-14e2-f47e-07f35dae8af7",
       "attribute_path" : {
         "uuid" : "AttributePath-5335f929-59b9-4bf0-9da5-6ee61aa171b4",
         "attributes" : [ {
@@ -235,11 +631,83 @@
           "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
         } ]
       }
+    }, {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "57bc4272-dc26-09c4-9705-7b682f41b69a",
+      "name" : "Journal_JournalInfo_JournalTitle_value__57bc4272-dc26-09c4-9705-7b682f41b69a",
+      "attribute_path" : {
+        "uuid" : "AttributePath-2e17235a-fa4e-4156-a184-8e505314981b",
+        "attributes" : [ {
+          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
+          "name" : "Journal",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
+        }, {
+          "uuid" : "Attribute-c75f74ef-ac62-45e8-8949-95ab19d0ea71",
+          "name" : "JournalInfo",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/JournalInfo"
+        }, {
+          "uuid" : "Attribute-654e8b02-f8c6-4b33-aa9b-1c0ec792ccf0",
+          "name" : "JournalTitle",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/JournalTitle"
+        }, {
+          "uuid" : "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+          "name" : "value",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        } ]
+      }
+    }, {
+      "type" : "MappingAttributePathInstance",
+      "uuid" : "6c39f1fb-e605-18dd-b570-7753e29e5ef2",
+      "name" : "Journal_Volume_Issue_Article_ArticleHeader_AuthorGroup_Author_AuthorName_NoGivenName_type__6c39f1fb-e605-18dd-b570-7753e29e5ef2",
+      "attribute_path" : {
+        "uuid" : "AttributePath-e3edbaaf-e200-47f2-a2ef-965016e1b928",
+        "attributes" : [ {
+          "uuid" : "Attribute-a35be8df-c63a-462c-a32f-2183a030fcc0",
+          "name" : "Journal",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Journal"
+        }, {
+          "uuid" : "Attribute-2cdeb81f-c60d-4411-8abf-5a1256b936e0",
+          "name" : "Volume",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Volume"
+        }, {
+          "uuid" : "Attribute-23d98239-a272-465f-8198-174b404a605c",
+          "name" : "Issue",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Issue"
+        }, {
+          "uuid" : "Attribute-09bc3b43-969a-442b-aab5-05b4bb9ebd2d",
+          "name" : "Article",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Article"
+        }, {
+          "uuid" : "Attribute-6a785e9f-b712-4200-a3f3-10bf2b183373",
+          "name" : "ArticleHeader",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/ArticleHeader"
+        }, {
+          "uuid" : "Attribute-468261e5-35b9-4932-aa1c-55841ff37168",
+          "name" : "AuthorGroup",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/AuthorGroup"
+        }, {
+          "uuid" : "Attribute-48ff3d21-7f36-4760-abfb-f7922ad98cf5",
+          "name" : "Author",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/Author"
+        }, {
+          "uuid" : "Attribute-b267b8e3-941c-4d87-8990-b86dcab4d112",
+          "name" : "AuthorName",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/AuthorName"
+        }, {
+          "uuid" : "Attribute-a20f5259-186a-43bf-af9f-31654ce51362",
+          "name" : "NoGivenName",
+          "uri" : "http://data.slub-dresden.de/schemas/Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8/NoGivenName"
+        }, {
+          "uuid" : "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+          "name" : "type",
+          "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        } ]
+      }
     } ],
     "output_attribute_path" : {
       "type" : "MappingAttributePathInstance",
-      "uuid" : "09c3972a-dd95-4625-dc0c-91d7d55123aa",
-      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__09c3972a-dd95-4625-dc0c-91d7d55123aa",
+      "uuid" : "81ecd73b-5455-4feb-94a8-53106dc37868",
+      "name" : "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__81ecd73b-5455-4feb-94a8-53106dc37868",
       "attribute_path" : {
         "uuid" : "AttributePath-b1bdf0c7-9d0a-4e82-a2d6-3a5f2fb46bb5",
         "attributes" : [ {
@@ -255,6 +723,84 @@
     }
   } ],
   "functions" : [ {
+    "type" : "Function",
+    "uuid" : "Function-92855c36-59c4-4b09-a4c8-5a0fb56fa3d9",
+    "name" : "combine",
+    "description" : "Collects all received values and combine them. This function does only emit values, when all sources emit something.",
+    "function_description" : {
+      "name" : "combine",
+      "dsl" : "metafacture",
+      "reference" : "concat",
+      "description" : "Collects all received values and combine them. This function does only emit values, when all sources emit something.",
+      "parameters" : {
+        "value" : {
+          "type" : "text",
+          "optional" : true
+        }
+      }
+    },
+    "parameters" : [ "value" ]
+  }, {
+    "type" : "Function",
+    "uuid" : "Function-405d9b90-b6fd-45e6-b00d-17e96dc32b2c",
+    "name" : "collect",
+    "description" : "Collects all received values and concatenates them on record end. Useful for values of a field that occurs multiple times in a record.",
+    "function_description" : {
+      "name" : "collect",
+      "dsl" : "dswarm",
+      "reference" : "collect",
+      "description" : "Collects all received values and concatenates them on record end. Useful for values of a field that occurs multiple times in a record.",
+      "parameters" : {
+        "delimiter" : {
+          "type" : "text",
+          "optional" : true
+        },
+        "prefix" : {
+          "type" : "text",
+          "optional" : true
+        },
+        "postfix" : {
+          "type" : "text",
+          "optional" : true
+        }
+      }
+    },
+    "parameters" : [ "delimiter", "prefix", "postfix" ]
+  }, {
+    "type" : "Function",
+    "uuid" : "Function-57b89fd3-ee03-4c21-9026-bab8fcfe86eb",
+    "name" : "blacklist",
+    "description" : "Blacklist filter",
+    "function_description" : {
+      "name" : "blacklist",
+      "dsl" : "metafacture",
+      "reference" : "blacklist",
+      "description" : "Blacklist filter",
+      "parameters" : {
+        "lookupString" : {
+          "type" : "lookuplist"
+        }
+      }
+    },
+    "parameters" : [ "lookupString" ]
+  }, {
+    "type" : "Function",
+    "uuid" : "Function-8f5a6192-b8c2-4ba9-97b5-cef74912d1a7",
+    "name" : "constant",
+    "description" : "Sets literal value to a constant.",
+    "function_description" : {
+      "name" : "constant",
+      "dsl" : "metafacture",
+      "reference" : "constant",
+      "description" : "Sets literal value to a constant.",
+      "parameters" : {
+        "value" : {
+          "type" : "text"
+        }
+      }
+    },
+    "parameters" : [ "value" ]
+  }, {
     "type" : "Function",
     "uuid" : "Function-18516f9d-7905-4cd7-8f31-ccfa018f1036",
     "name" : "multi-collect",
@@ -282,30 +828,21 @@
     "parameters" : [ "delimiter", "prefix", "postfix" ]
   }, {
     "type" : "Function",
-    "uuid" : "Function-405d9b90-b6fd-45e6-b00d-17e96dc32b2c",
-    "name" : "collect",
-    "description" : "Collects all received values and concatenates them on record end. Useful for values of a field that occurs multiple times in a record.",
+    "uuid" : "Function-2f9c968f-3478-4f23-b64e-2313f86e11de",
+    "name" : "whitelist",
+    "description" : "Whitelist filter.",
     "function_description" : {
-      "name" : "collect",
-      "dsl" : "dswarm",
-      "reference" : "collect",
-      "description" : "Collects all received values and concatenates them on record end. Useful for values of a field that occurs multiple times in a record.",
+      "name" : "whitelist",
+      "dsl" : "metafacture",
+      "reference" : "whitelist",
+      "description" : "Whitelist filter.",
       "parameters" : {
-        "delimiter" : {
-          "type" : "text",
-          "optional" : true
-        },
-        "prefix" : {
-          "type" : "text",
-          "optional" : true
-        },
-        "postfix" : {
-          "type" : "text",
-          "optional" : true
+        "lookupString" : {
+          "type" : "lookuplist"
         }
       }
     },
-    "parameters" : [ "delimiter", "prefix", "postfix" ]
+    "parameters" : [ "lookupString" ]
   } ],
   "input_data_model" : {
     "uuid" : "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
