@@ -1,0 +1,91 @@
+{
+  "name": "im_springer_journals_jl_required",
+  "uuid": "0790a3d5-47b0-11d9-7b69-cbf7a3134f99",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "DataModel-490cb323-df46-455a-923b-9b06ca12b3aa",
+  "output_data_model_name": "Internal Data Model UBL Intermediate Format",
+  "output_schema_uuid": "Schema-d06726be-a8e2-412a-b5e7-76cba340108b",
+  "output_schema_name": "UBL Intermediate Format schema",
+  "mappings_count": 5,
+  "mappings": [
+    "constant_rft.genre",
+    "constant_finc.source_id",
+    "constant_ris.type",
+    "constant_finc.mega_collection",
+    "finc.record_id"
+  ]
+}
+{
+  "name": "im_springer_journals_jl_identifier_rel",
+  "uuid": "c0e1486a-d371-aa4a-7c85-df1dadc1bfd0",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "DataModel-490cb323-df46-455a-923b-9b06ca12b3aa",
+  "output_data_model_name": "Internal Data Model UBL Intermediate Format",
+  "output_schema_uuid": "Schema-d06726be-a8e2-412a-b5e7-76cba340108b",
+  "output_schema_name": "UBL Intermediate Format schema",
+  "mappings_count": 4,
+  "mappings": [
+    "JournalElectronicISSN_rft.eissn",
+    "JournalPrintISSN_rft.issn",
+    "JournalID_url",
+    "doi"
+  ]
+}
+{
+  "name": "im_springer_journals_jl_content_rel",
+  "uuid": "cf950018-a0d5-2c5c-2b03-8770b107150c",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "DataModel-490cb323-df46-455a-923b-9b06ca12b3aa",
+  "output_data_model_name": "Internal Data Model UBL Intermediate Format",
+  "output_schema_uuid": "Schema-d06726be-a8e2-412a-b5e7-76cba340108b",
+  "output_schema_name": "UBL Intermediate Format schema",
+  "mappings_count": 2,
+  "mappings": [
+    "constant_finc.format",
+    "x.subjects"
+  ]
+}
+{
+  "name": "im_springer_journals_jl_title_rel",
+  "uuid": "dc101bc8-a56b-620a-0700-f6a49bd9263c",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "DataModel-490cb323-df46-455a-923b-9b06ca12b3aa",
+  "output_data_model_name": "Internal Data Model UBL Intermediate Format",
+  "output_schema_uuid": "Schema-d06726be-a8e2-412a-b5e7-76cba340108b",
+  "output_schema_name": "UBL Intermediate Format schema",
+  "mappings_count": 3,
+  "mappings": [
+    "JournalSubTitle_x.subtitle",
+    "JournalAbbreviatedTitle_rft.stitle",
+    "JournalTitle_rft.jtitle"
+  ]
+}
+{
+  "name": "im_springer_journals_jl_publisher_rel",
+  "uuid": "f72e8740-81b5-5f19-3181-7b023490d8fc",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "DataModel-490cb323-df46-455a-923b-9b06ca12b3aa",
+  "output_data_model_name": "Internal Data Model UBL Intermediate Format",
+  "output_schema_uuid": "Schema-d06726be-a8e2-412a-b5e7-76cba340108b",
+  "output_schema_name": "UBL Intermediate Format schema",
+  "mappings_count": 2,
+  "mappings": [
+    "PublisherLocation_rft.place",
+    "PublisherImprintName_rft.pub"
+  ]
+}
