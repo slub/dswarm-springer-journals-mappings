@@ -1,0 +1,120 @@
+{
+  "name": "new_im_springer_articles_title_rel",
+  "uuid": "0d0087a0-6e23-821b-3a2d-b7b1a26b0177",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "DataModel-490cb323-df46-455a-923b-9b06ca12b3aa",
+  "output_data_model_name": "Internal Data Model UBL Intermediate Format",
+  "output_schema_uuid": "Schema-d06726be-a8e2-412a-b5e7-76cba340108b",
+  "output_schema_name": "UBL Intermediate Format schema",
+  "mappings_count": 9,
+  "mappings": [
+    "rft.atitle",
+    "rft.stitle",
+    "CoverDate_rft.date",
+    "rft.epage",
+    "rft.issue",
+    "rft.volume",
+    "rft.jtitle",
+    "rft.pages",
+    "rft.spage"
+  ]
+}
+{
+  "name": "new_intermediateschema_required",
+  "uuid": "3c740d85-f2ed-015b-872e-cf6a7db6cedc",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "DataModel-490cb323-df46-455a-923b-9b06ca12b3aa",
+  "output_data_model_name": "Internal Data Model UBL Intermediate Format",
+  "output_schema_uuid": "Schema-d06726be-a8e2-412a-b5e7-76cba340108b",
+  "output_schema_name": "UBL Intermediate Format schema",
+  "mappings_count": 9,
+  "mappings": [
+    "rft.genre",
+    "Article_ID_AIAccessFacet",
+    "Article_ID_finc.AIRecordType",
+    "finc.source_id",
+    "languages",
+    "ris.type",
+    "finc.record_id",
+    "CoverDate_x.date",
+    "finc.mega_collection"
+  ]
+}
+{
+  "name": "new_im_springer_journals_content_rel",
+  "uuid": "452a62b3-722c-c4cb-6f3c-731d0a7fb392",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "DataModel-490cb323-df46-455a-923b-9b06ca12b3aa",
+  "output_data_model_name": "Internal Data Model UBL Intermediate Format",
+  "output_schema_uuid": "Schema-d06726be-a8e2-412a-b5e7-76cba340108b",
+  "output_schema_name": "UBL Intermediate Format schema",
+  "mappings_count": 3,
+  "mappings": [
+    "x.subjects",
+    "abstract_extended",
+    "constant_format"
+  ]
+}
+{
+  "name": "new_im_springer_journals_identifier_rel",
+  "uuid": "6ee74302-5838-5042-7f95-138d55bc18c4",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "DataModel-490cb323-df46-455a-923b-9b06ca12b3aa",
+  "output_data_model_name": "Internal Data Model UBL Intermediate Format",
+  "output_schema_uuid": "Schema-d06726be-a8e2-412a-b5e7-76cba340108b",
+  "output_schema_name": "UBL Intermediate Format schema",
+  "mappings_count": 4,
+  "mappings": [
+    "url",
+    "doi",
+    "rft.issn",
+    "rft.eissn"
+  ]
+}
+{
+  "name": "new_im_springer_journals_publisher_rel",
+  "uuid": "8b15da35-0404-c07f-a9b8-8bb32f2ccc9b",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "DataModel-490cb323-df46-455a-923b-9b06ca12b3aa",
+  "output_data_model_name": "Internal Data Model UBL Intermediate Format",
+  "output_schema_uuid": "Schema-d06726be-a8e2-412a-b5e7-76cba340108b",
+  "output_schema_name": "UBL Intermediate Format schema",
+  "mappings_count": 2,
+  "mappings": [
+    "rft.place",
+    "PublisherImprintName_rft.pub"
+  ]
+}
+{
+  "name": "new_im_springer_journals_author_rel",
+  "uuid": "d790a8b8-f6d4-21de-c17d-5e196166bee3",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "DataModel-490cb323-df46-455a-923b-9b06ca12b3aa",
+  "output_data_model_name": "Internal Data Model UBL Intermediate Format",
+  "output_schema_uuid": "Schema-d06726be-a8e2-412a-b5e7-76cba340108b",
+  "output_schema_name": "UBL Intermediate Format schema",
+  "mappings_count": 3,
+  "mappings": [
+    "rft.aulast",
+    "rft.aufirst",
+    "JournalTitle_rft.aulast"
+  ]
+}

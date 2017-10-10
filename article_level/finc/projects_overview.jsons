@@ -1,0 +1,187 @@
+{
+  "name": "finc_springer_articles_container_rel",
+  "uuid": "287804a5-e96a-0fa2-52ec-8909407d4c27",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "5fddf2c5-916b-49dc-a07d-af04020c17f7",
+  "output_data_model_name": "Internal Data Model finc Solr",
+  "output_schema_uuid": "Schema-5664ba0e-ccb3-4b71-8823-13281490de30",
+  "output_schema_name": "finc Solr schema",
+  "mappings_count": 7,
+  "mappings": [
+    "container_volume_VolumeIDStart",
+    "container_reference",
+    "series_JournalTitle",
+    "container_title_JournalTitle",
+    "container_start_page_ArticleFirstPage",
+    "hierarchy_parent_id",
+    "container_issue_IssueIDStart"
+  ]
+}
+{
+  "name": "finc_springer_articles_fullrecord",
+  "uuid": "45412a00-eb03-cd10-24e7-e0126b831e1f",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "5fddf2c5-916b-49dc-a07d-af04020c17f7",
+  "output_data_model_name": "Internal Data Model finc Solr",
+  "output_schema_uuid": "Schema-5664ba0e-ccb3-4b71-8823-13281490de30",
+  "output_schema_name": "finc Solr schema",
+  "mappings_count": 1,
+  "mappings": [
+    "fullrecord_ArticleDOI"
+  ]
+}
+{
+  "name": "finc_springer_articles_constants",
+  "uuid": "4702d82b-9416-6b0b-4b66-3370eca6a26b",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "5fddf2c5-916b-49dc-a07d-af04020c17f7",
+  "output_data_model_name": "Internal Data Model finc Solr",
+  "output_schema_uuid": "Schema-5664ba0e-ccb3-4b71-8823-13281490de30",
+  "output_schema_name": "finc Solr schema",
+  "mappings_count": 18,
+  "mappings": [
+    "constant_format_nrw",
+    "constant_format_de105",
+    "constant_format_dezwi2",
+    "constant_format_degla1",
+    "constant_access_facet",
+    "constant_mega_collection",
+    "constant_format",
+    "constant_format_ded117",
+    "constant_format_del152",
+    "constant_recordtype",
+    "constant_format_dech1",
+    "constant_format_dezi4",
+    "constant_source_id",
+    "constant_format_de14",
+    "constant_format_de15",
+    "constant_format_de520",
+    "constant_format_del189",
+    "constant_format_de540"
+  ]
+}
+{
+  "name": "finc_springer_articles_author_rel",
+  "uuid": "886a727e-a8c8-e5e1-fcdd-517b800cffe1",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "5fddf2c5-916b-49dc-a07d-af04020c17f7",
+  "output_data_model_name": "Internal Data Model finc Solr",
+  "output_schema_uuid": "Schema-5664ba0e-ccb3-4b71-8823-13281490de30",
+  "output_schema_name": "finc Solr schema",
+  "mappings_count": 7,
+  "mappings": [
+    "author_corporate_InstitutionalAuthorName",
+    "vf1_author2_AuthorName_rel",
+    "author2_AuthorName_rel",
+    "author_AuthorName_rel",
+    "author_facet_InstitutionalAuthorName",
+    "author_facet_AuthorName_rel",
+    "vf1_author_AuthorName_rel"
+  ]
+}
+{
+  "name": "finc_springer_articles_identifiers_related",
+  "uuid": "8a443df7-e42f-3176-828f-d62d8989bdf4",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "5fddf2c5-916b-49dc-a07d-af04020c17f7",
+  "output_data_model_name": "Internal Data Model finc Solr",
+  "output_schema_uuid": "Schema-5664ba0e-ccb3-4b71-8823-13281490de30",
+  "output_schema_name": "finc Solr schema",
+  "mappings_count": 5,
+  "mappings": [
+    "issn_JournalElectronicISSN",
+    "issn_JournalPrintISSN",
+    "urn_ArticleDOI",
+    "id_ArticleDOI",
+    "record_id_ArticleDOI"
+  ]
+}
+{
+  "name": "finc_springer_articles_article_rel",
+  "uuid": "946e7213-dfe4-7661-7b7e-45c75bb12a57",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "5fddf2c5-916b-49dc-a07d-af04020c17f7",
+  "output_data_model_name": "Internal Data Model finc Solr",
+  "output_schema_uuid": "Schema-5664ba0e-ccb3-4b71-8823-13281490de30",
+  "output_schema_name": "finc Solr schema",
+  "mappings_count": 5,
+  "mappings": [
+    "topic_facet_Keyword",
+    "topic_JournalSubject",
+    "language_Language",
+    "topic_Keyword",
+    "topic_facet_JournalSubject"
+  ]
+}
+{
+  "name": "finc_springer_articles_title_related",
+  "uuid": "cc5cbafb-f05b-0701-b245-5d3f785b9fba",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "5fddf2c5-916b-49dc-a07d-af04020c17f7",
+  "output_data_model_name": "Internal Data Model finc Solr",
+  "output_schema_uuid": "Schema-5664ba0e-ccb3-4b71-8823-13281490de30",
+  "output_schema_name": "finc Solr schema",
+  "mappings_count": 3,
+  "mappings": [
+    "title_sort_ArticleTitle",
+    "title_ArticleTitle",
+    "title_full_article_title_rel"
+  ]
+}
+{
+  "name": "finc_springer_articles_access_rel",
+  "uuid": "d64ecf9a-52a6-c9d8-2ca5-9b130e6da0cd",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "5fddf2c5-916b-49dc-a07d-af04020c17f7",
+  "output_data_model_name": "Internal Data Model finc Solr",
+  "output_schema_uuid": "Schema-5664ba0e-ccb3-4b71-8823-13281490de30",
+  "output_schema_name": "finc Solr schema",
+  "mappings_count": 1,
+  "mappings": [
+    "url_ArticleDOI"
+  ]
+}
+{
+  "name": "finc_springer_articles_publisher_rel",
+  "uuid": "fd7713a8-6704-9ca6-49a8-47cdddf13040",
+  "input_data_model_uuid": "cdee5eab-93c4-333d-ab71-e1be7d5622f4",
+  "input_data_model_name": "Springer Journals sample records",
+  "input_schema_uuid": "Schema-f7fd6d5d-9b85-4103-85d0-f062c8de52f8",
+  "input_schema_name": "Springer Journals schema",
+  "output_data_model_uuid": "5fddf2c5-916b-49dc-a07d-af04020c17f7",
+  "output_data_model_name": "Internal Data Model finc Solr",
+  "output_schema_uuid": "Schema-5664ba0e-ccb3-4b71-8823-13281490de30",
+  "output_schema_name": "finc Solr schema",
+  "mappings_count": 5,
+  "mappings": [
+    "publisher_PublisherImprintName",
+    "publishDateSort_CopyrightYear",
+    "publishDate_CopyrightYear",
+    "publishPlace_PublisherLocation",
+    "imprint_Imprint_rel"
+  ]
+}
